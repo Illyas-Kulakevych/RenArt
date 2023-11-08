@@ -11,7 +11,7 @@
 .bottom__artgallery-block{
     background-color: #231107;
 }
-.block{
+.main__part-page{
     max-width: 2560px;
     margin: 0 auto;
     position: relative;
@@ -101,10 +101,10 @@
     font-size: 32px;
     transition: 0.4s;
 }
-.active, .accordion:hover{
+.active, .accordion_button:hover{
     background-color: #231107;
 }
-.accordion:after {
+.accordion__button:after {
     content: '\002B'; /* Юнікод для знаку (+) */
     color: white;
     font-weight: bold;
