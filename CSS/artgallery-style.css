@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.block{
+    max-width: 2560px;
+    margin: 0 auto;
+    position: relative;
+    top: 111px;
+    right: 100px;
+    z-index: 2;
+}
+.major__conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.red-ribbon{
+    align-self: center;
+    max-width: 400px;
+    max-height: 500px;
+    z-index: 2;
+}
+.ticket{
+    color: white;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 72px;
+    position: relative;
+    bottom: 21px;
+    left: 700px;
+    z-index: 2;
+    max-width: 2560px;
+    margin: 0 auto;
+}
+.answers-title-hilight{
+    color: #eab156;
+}
+.answers__title{
+    color:#9f7647;
+    font-family: 'Bacasime Antique', serif;
+    font-size: 62px;
+    align-self: center;
+    position: relative;
+    left: 20px;
+    top: 400px;
+}
+.speaker__title{
+    color: #ffffff54;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    right: 200px;
+    bottom: 55px;
+    z-index: 2;
+}
+.advise__text{
+    color: #ffffff96;
+    font-family: 'Work Sans', sans-serif;
+    font-size:17px;
+    width: 17%;
+    position: relative;
+    top: -490px;
+    right: 563px;
+    float: right;
+    /* outline: solid 1px red; */
+}
+.answers-text{
+    background-color: #231107;
+    color: #ffffff96;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+}
+.main__accordion{
+    position: relative;
+    top:  -400px;
+    left: 60%;
+    width: 20%;
+    overflow: hidden;
+}
+.accordion{
+    background-color: #231107; 
+    color: #9f7647;
+    cursor: pointer;
+    padding: 18px;
+    border: 0;
+    text-align: right;
+    outline: none;
+    font-family: 'Bacasime Antique', serif;
+    text-align: left;
+    font-size: 32px;
+    transition: 0.4s;
+}
+.active, .accordion:hover{
+    background-color: #231107;
+}
+.accordion:after {
+    content: '\002B'; /* Юнікод для знаку (+) */
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    float: right;
+}
+.active:after {
+    content: "\2212"; /* Юнікод для знаку (-) */
+}
+.panel{
+    padding: 0 18px;
+    background-color: #231107;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.sleeping-princess{
+  background-image: url(Img/sleeping-princess.png);
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 400px;
+  overflow: 0;
+  z-index: 0;
+}
+.star-stick{
+    min-width: 400px;
+    position: relative;
+    right: 350px;
+    top: 410px;
+}
+.hilight-star{
+    position: relative;
+    right: 130px;
+    bottom: 103px;
+    z-index: 2;
+}
+.link-arrow{
+    position: relative;
+    bottom: 7px;
+    left: 705px;
+    z-index: 3;
+}
+.ticket-link{
+    max-width: 2560px;
+    margin: 0 auto;
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}

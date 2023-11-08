@@ -1,0 +1,27 @@
+@media screen and (max-width: 470px){
+    .red-ribbon{
+        max-width: 400px;
+        height: auto;
+        width:100%;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+    .main__accordion{
+        font-size: 24px;
+        flex-wrap: nowrap;
+    }
+    .major__conteiner{
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .main__accordion{
+        font-size: 28px;
+        flex-wrap: nowrap;
+    }
+    .major__conteiner{
+        flex-wrap: nowrap;
+    }
+}
+
