@@ -80,3 +80,7 @@
     font-weight: 400;
     color: var(--semi-transparent-white);
 }
+.angels__star-behind-woman {
+    opacity: 0.1;
+    height: 332px;
+}
