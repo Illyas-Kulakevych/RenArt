@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Merriweather&family=Montserrat&family=Sacramento&family=Work+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background__color__home: #241a0d;
+    --background__color__exhibition-events: #1D251E;
+    --background__color__artgallery: #231107;
+    --title__color__higlight: #eab156;
+    --title__color: #9f7647;
+    --white__color: #ffffff;
+    --poor__white__color: #fbf6e9;
+    --descriptive__color__most-hilight: #ffffff96;
+    --descriptive__color__hilight: #ffffff82;
+    --descriptive__color: #ffffff52;
+    --descriptive__color__lowlight: #ffffff4f;
+    --semi-transparent-white: rgba(255, 255, 255, 0.59);
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: var(--background__color__home);
+}

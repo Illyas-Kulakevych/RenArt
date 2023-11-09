@@ -1,0 +1,111 @@
+.hero__italic-subtitle {
+    color: var(--descriptive__color);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.hero__title {
+    color: var(--title__color__higlight);
+    font-family: "Bacasime Antique", serif;
+    font-size: 92px;
+    font-weight: 400;
+}
+
+.hero__title-beauty {
+    color: var(--title__color);
+    font-style: italic;
+}
+
+.hero__title-time {
+    color: var(--white__color);
+    font-style: italic;
+}
+
+.hero__divider {
+    width: 278px;
+}
+
+.hero__text {
+    width: 330px;
+    color: var(--semi-transparent-white);
+    font-family: "Bacasime Antique", serif;
+    text-align: justify;
+}
+
+.button__learn-more {
+    width: 116px;
+    border: 1px solid rgb(234, 177, 86);
+    color: rgb(234, 177, 86);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.angels__angel-picture {
+    width: 300px;
+}
+
+.angels__video-in-circle {
+    width: 100px;
+}
+
+.angels__video-guide {
+    color: var(--white__color);
+    font-family: 'Antic Didone', serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.angels__thinking-woman {
+    width: 200px;
+}
+
+.angels__star-behind-woman {
+    opacity: 0.1;
+    height: 332px;
+}
+
+.angels__year {
+    font-family: "Bacasime Antique", serif;
+    color: var(--white__color);
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.angels__title {
+    color: var(--title__color);
+    font-family: "Bacasime Antique", serif;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.left__exhibitions-link {
+    font-family: "Bacasime Antique", serif;
+    color: var(--title__color__higlight);
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.left__arrow {
+    width: 20px;
+}
+
+.right__single-star {
+    width: 25px;
+}
+
+.right__link {
+    font-family: 'Antic Didone', serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--semi-transparent-white);
+}

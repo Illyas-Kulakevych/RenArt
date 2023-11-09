@@ -6,27 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art Gallery Website Template Demo</title>
-    <link rel="shortcut icon" type="image/png"
-        href="https://res2.weblium.site/res/64a299e78794ae000e5f3c8f/64b7c54c434d9c000e744182_optimized" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" type="image/png" href="img/shortcut-icon.png" sizes="16x16">
 </head>
 
 <body>
+
     <header class="header">
         <nav class="header__nav" data-include="header-nav.partial.html"></nav>
         <div class="hero" data-include="index.header-hero.partial.html"></div>
     </header>
     <main>
         <section class="embrace" data-include="index.main-embrace.partial.html"></section>
-        <section data-include="main-khrushch.partial.html"></section>
-
-        <section class="news-section" data-include="main-vittsivskyi.partial.html"></section>
-        <div data-include="main-ivanov.partial.html"></div>
+        <section data-include="main-khrushch.partial.html"></section>       
+        
+        <section class="main-renaissance" data-include="main-renaissance.partial.html"></section>
 
         <section data-include="index.main.religious-motifs.partial.html"></section>
+
+        <section data-include="main-accordion.partial.html"></section>
+
+        <section class="news-section" data-include="main-news.partial.html"></section>
     </main>
-    <footer>
-        <section data-include="footer-vittsivskyi.partial.html"></section>
-    </footer>
+    <footer data-include="footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
     <!--Kulakevych Illya-->
     <!--Ivanov Oleksii-->
@@ -36,6 +40,7 @@
     <!-- Dryha Andrii -->
     <!-- Khrushch Andrii -->
     <!-- Anhelina Slobodian -->
+    <!-- Huliak Volodymyr -->
     
 </body>
 
