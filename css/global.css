@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Work+Sans:wght@100&display=swap');
 
 
 *{
@@ -7,6 +8,7 @@
     box-sizing: border-box;
 }
 :root{
+    --background__color__home: #241a0d;
     --title__color__higlight: #eab156;
     --title__color: #9f7647;
     --background__color: #231107;
@@ -17,4 +19,8 @@
     --descriptive__color: #ffffff52;
     --descriptive__color__lowlight: #ffffff4f;
     scroll-behavior: smooth;
+}
+
+.header {
+    background-color: var(--background__color__home);
 }

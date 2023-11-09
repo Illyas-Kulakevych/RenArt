@@ -1,0 +1,21 @@
+.hero__subtitle {
+    color: var(--descriptive__color);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+.hero__title {
+    color: var( --title__color__higlight);
+    font-family: "Bacasime Antique", serif;
+    font-size: 92px;
+    font-weight: 400;
+}
+.hero__title-beauty {
+    color: var(--title__color);
+    font-style: italic;
+}
+.hero__title-time {
+    color: var(--white__color);
+    font-style: italic;
+}
