@@ -23,6 +23,10 @@
     font-style: italic;
 }
 
+.hero__divider {
+    width: 278px;
+}
+
 .hero__text {
     width: 330px;
     color: var(--semi-transparent-white);
@@ -44,11 +48,28 @@
     margin-left: 20px;
 }
 
+.angels__angel-picture {
+    width: 300px;
+}
+
+.angels__video-in-circle {
+    width: 100px;
+}
+
 .angels__video-guide {
     color: var(--white__color);
     font-family: 'Antic Didone', serif;
     font-size: 12px;
     font-weight: 400;
+}
+
+.angels__thinking-woman {
+    width: 200px;
+}
+
+.angels__star-behind-woman {
+    opacity: 0.1;
+    height: 332px;
 }
 
 .angels__year {
@@ -74,13 +95,17 @@
     font-weight: 400;
 }
 
+.left__arrow {
+    width: 20px;
+}
+
+.right__single-star {
+    width: 25px;
+}
+
 .right__link {
     font-family: 'Antic Didone', serif;
     font-size: 12px;
     font-weight: 400;
     color: var(--semi-transparent-white);
-}
-.angels__star-behind-woman {
-    opacity: 0.1;
-    height: 332px;
 }
