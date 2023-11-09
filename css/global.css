@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Work+Sans:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Work+Sans:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Merriweather&family=Montserrat&family=Sacramento&family=Work+Sans:wght@700&display=swap');
 
 *{
     margin: 0;
@@ -18,6 +19,7 @@
     --descriptive__color__hilight: #ffffff82;
     --descriptive__color: #ffffff52;
     --descriptive__color__lowlight: #ffffff4f;
+    --semi-transparent-white: rgba(255, 255, 255, 0.59);
     scroll-behavior: smooth;
 }
 
