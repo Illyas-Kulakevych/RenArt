@@ -3,7 +3,7 @@
     scroll-behavior: smooth;  * плавный скрол при натисканні на лінку *
 } */
 .bottom__artgallery-block{
-    background-color: var(--background__color);
+    background-color: var(--background__color__artgallery);
 }
 .main__part-page{
     max-width: 2560px;
@@ -70,7 +70,7 @@
     /* outline: solid 1px red; */
 }
 .answers-text{
-    background-color: var(--background__color);
+    background-color: var(--background__color__artgallery);
     color: var(--descriptive__color__most-hilight);
     font-family: 'Work Sans', sans-serif;
     font-size: 17px;
@@ -83,7 +83,7 @@
     overflow: hidden;
 }
 .accordion__button{
-    background-color: var(--background__color); 
+    background-color: var(--background__color__artgallery); 
     color: var(--title__color);
     cursor: pointer;
     padding: 18px;
@@ -96,7 +96,7 @@
     transition: 0.4s;
 }
 .active, .accordion_button:hover{
-    background-color: var(--background__color);
+    background-color: var(--background__color__artgallery);
 }
 .accordion__button:after {
     content: '\002B'; /* Юнікод для знаку (+) */
@@ -110,7 +110,7 @@
 }
 .panel{
     padding: 0 18px;
-    background-color: var(--background__color);
+    background-color: var(--background__color__artgallery);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
