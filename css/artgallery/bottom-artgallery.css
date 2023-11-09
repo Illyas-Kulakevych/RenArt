@@ -1,15 +1,9 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-
 /* main__artgallery-page
 :root{
     scroll-behavior: smooth;  * плавный скрол при натисканні на лінку *
 } */
 .bottom__artgallery-block{
-    background-color: #231107;
+    background-color: var(--background__color);
 }
 .main__part-page{
     max-width: 2560px;
@@ -33,7 +27,7 @@
     z-index: 2;
 }
 .ticket{
-    color: white;
+    color: var(--white__color);
     font-family: 'Bacasime Antique', serif;
     font-size: 72px;
     position: relative;
@@ -44,10 +38,10 @@
     margin: 0 auto;
 }
 .answers-title-hilight{
-    color: #eab156;
+    color: var(--title__color__higlight);
 }
 .answers__title{
-    color:#9f7647;
+    color:var(--title__color);
     font-family: 'Bacasime Antique', serif;
     font-size: 62px;
     align-self: center;
@@ -56,7 +50,7 @@
     top: 400px;
 }
 .speaker__title{
-    color: #ffffff54;
+    color: var(--descriptive__color);
     font-family: 'Work Sans', sans-serif;
     font-size: 15px;
     position: relative;
@@ -65,7 +59,7 @@
     z-index: 2;
 }
 .advise__text{
-    color: #ffffff96;
+    color: var(--descriptive__color__most-hilight);
     font-family: 'Work Sans', sans-serif;
     font-size:17px;
     width: 17%;
@@ -76,8 +70,8 @@
     /* outline: solid 1px red; */
 }
 .answers-text{
-    background-color: #231107;
-    color: #ffffff96;
+    background-color: var(--background__color);
+    color: var(--descriptive__color__most-hilight);
     font-family: 'Work Sans', sans-serif;
     font-size: 17px;
 }
@@ -89,8 +83,8 @@
     overflow: hidden;
 }
 .accordion__button{
-    background-color: #231107; 
-    color: #9f7647;
+    background-color: var(--background__color); 
+    color: var(--title__color);
     cursor: pointer;
     padding: 18px;
     border: 0;
@@ -102,11 +96,11 @@
     transition: 0.4s;
 }
 .active, .accordion_button:hover{
-    background-color: #231107;
+    background-color: var(--background__color);
 }
 .accordion__button:after {
     content: '\002B'; /* Юнікод для знаку (+) */
-    color: white;
+    color: var(--white__color);
     font-weight: bold;
     margin-left: 5px;
     float: right;
@@ -116,7 +110,7 @@
 }
 .panel{
     padding: 0 18px;
-    background-color: #231107;
+    background-color: var(--background__color);
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
