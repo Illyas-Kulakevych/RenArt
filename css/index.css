@@ -4,4 +4,6 @@
 @import url(header-styles/header-nav.css);
 @import url(header-styles/index.header-hero.css);
 @import url(index.main.religious-motifs.css);
-@import url(artworks/artworks-styles.css)
+@import url(artworks/artworks-styles.css);
+@import url(footer.css);
+@import url(main-news.css);
