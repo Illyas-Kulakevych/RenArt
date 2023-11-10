@@ -1,0 +1,50 @@
+.artworks {
+    background-color: var(--background__color__home); 
+}
+.artworks__title{
+    color: var(--title__color__higlight);
+    font-style: italic;
+    font-size: 103px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Bacasime Antique', serif;
+
+}
+.artworks__img{
+    width: 310px;
+    height: 400px;
+}
+.artworks__caption{
+    color: var(--descriptive__color);
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 19.6px;
+}
+.learningtext__paragraph{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    color: var(--descriptive__color__most-hilight);
+    font-weight: bold;
+
+}
+.learningtext__paragraph-additional{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    color: var(--semi-transparent-white);
+    font-weight: 500;
+
+}
+.artworks__img-dame{
+    width: 220px;
+    height: 300px;
+}
+.artworks__img-eagle{
+    width: 210px;
+    height: 200px;
+}
+.artworks__img-gravin{
+    width: 280px;
+    height: 280px;
+}
