@@ -4,6 +4,10 @@
 .italic{
 	font-style: italic;
 }
+.main__events{
+    background-color: var(--background__color__exhibition-events);
+}
+
 .exhibitions, .events{
 	margin: 0 auto;
 	max-width: 1168px;
