@@ -68,6 +68,7 @@
 .exhibitions__card a:active{
     background-color: #323232;
     color: #231107;
+    border-color: #323232;
 }
 
 
