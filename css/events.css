@@ -8,6 +8,9 @@
     background-color: var(--background__color__exhibition-events);
 }
 
+
+/* Exhibitions section! */
+
 .exhibitions, .events{
 	margin: 0 auto;
 	max-width: 1168px;
@@ -58,6 +61,14 @@
 	text-align: center;
     color: var(--title__color__higlight);
 }
+.exhibitions__card a:hover{
+    background-color: var(--title__color__higlight);
+    color: var(--white__color);
+}
+.exhibitions__card a:active{
+    background-color: #323232;
+    color: #231107;
+}
 
 
 
@@ -73,7 +84,7 @@
     color: var(--title__color);
 }
 .events-title p{
-    color: var(--white__color);
+    color: var(--semi-transparent-white);
 }
 .events-title{
 	display: flex;
@@ -90,10 +101,7 @@
 	margin-top: 45px;
 	border: 1px solid var(--semi-transparent-white);
 	padding: 31px;
-	
-
 }
-
 time{
 	display: block;
 	margin-top: 25px;
@@ -109,6 +117,16 @@ time{
 .event__card-title p{
 	margin-top: 20px;
     color: var(--semi-transparent-white);
+}
+.event__card-title a{
+    text-decoration: none;
+    color: var(--title__color__higlight);
+}
+.event__card-title a:active{
+    color: var(--title__color__higlight);
+}
+.event__card-title a:visited{
+    color: var(--title__color__higlight);
 }
 .event__card-date p{
     color: var(--title__color);
