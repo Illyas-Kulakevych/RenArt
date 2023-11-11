@@ -1,0 +1,215 @@
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+.exhibitions, .events{
+	margin: 0 auto;
+	max-width: 1168px;
+}
+.exhibitions{
+	padding: 100px 24px 45px;
+}
+.exhibitions__cards{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	row-gap: 30px;
+	flex-wrap: wrap;
+}
+.exhibitions__card{
+	width: 100%;
+	padding: 10px 0 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.exhibitions__card div:not(:first-child) {
+	margin-top: 20px;
+
+}
+.exhibitions__card-photo{
+	display: block;
+}
+
+.exhibitions__card-photo img{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+.events{
+	padding: 50px 24px 80px;
+}
+.events-title{
+	display: flex;
+	flex-direction: column;
+
+}
+.events-title *{
+	width: 100%;
+}
+.event__card{
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 45px;
+	border: 1px solid black ;
+	padding: 31px;
+	
+
+}
+
+time{
+	display: block;
+	margin-top: 25px;
+}
+.event__card img{
+	display: block;
+	margin-bottom: 3px;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+.event__card-title p{
+	margin-top: 20px;
+}
+
+.exhibitions__card a{
+	display: inline-block;
+	border: 1px solid black;
+	text-decoration: none;
+	padding: 14px 20px;
+	text-align: center;
+}
+
+
+
+.wrapper{
+	display: flex;
+	height: 300px;
+
+}
+.wrapper img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+
+}
+
+
+/* Medium screens (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+	.exhibitions{
+		padding: 95px 17px 40px;
+
+	}
+	.exhibitions__card{
+		padding: 10px 15px;
+		width: 50%;
+	}
+	.exhibitions__card div:last-child{
+		margin-top: 35px;
+	}
+
+
+
+
+	.events{
+		padding: 45px 32px 55px;
+	}
+	.events-title{
+		align-items: center;
+		column-gap: 30px;
+	}
+	.event__card{
+		flex-direction: row;
+		align-items: center;
+		padding: 34px 19px;
+	}
+	.events-title{
+		flex-direction: row;
+	}
+	.events-title *{
+		width: 50%;
+	}
+	.event__card div{
+		padding: 0 15px;
+	}
+	.event__card-date{
+		width: 100%;
+	}
+	.event__card img{
+		width: 120px;
+		height: 120px;
+	}
+	.wrapper{
+		height: 340px;
+	}
+
+}
+
+
+/* Large screens (laptops/desktops) */
+
+@media (min-width: 992px) {
+	.exhibitions{
+		padding: 150px 0 90px;
+		max-width: 1200px;
+	}
+	.exhibitions__card{
+		width: 33.3%;
+		padding: 10px 15px;
+	}
+	.exhibitions__card div:last-child{
+		margin-top: 40px;
+	}
+	
+
+	.events{
+		padding: 90px 0 95px;
+		max-width: 1200px;
+	}
+	.events-title{
+		align-items: center;
+	}
+	.events-title *{
+		padding: 0 15px;
+	}
+	.events__cards{
+		margin-top: 50px;
+		padding: 0 15px;
+	}
+	.event__card{
+		flex-direction: row;
+		align-items: center;
+		padding: 40px 25px;
+	}
+	.event__card div{
+		padding: 0 15px;
+	}
+	.events-title{
+		flex-direction: row;
+	}
+	.events-title *{
+		width: 50%;
+	}
+	.event__card img{
+		width: 120px;
+		height: 120px;
+	}
+	.event__card-date{
+		width: 58%;
+	}
+
+	.wrapper{
+		height: 690px;
+	}
+}
