@@ -27,3 +27,7 @@
 .header {
     background-color: var(--background__color__home);
 }
+
+.main__index {
+    background-color: var(--background__color__home);
+}
