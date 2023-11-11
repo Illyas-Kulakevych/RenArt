@@ -44,14 +44,23 @@
 
 
 
+/* Events section */
 
 .events{
 	padding: 50px 24px 80px;
 }
+.event__card-title h2{
+    color: var(--title__color__higlight);
+}
+.events-title span{
+    color: var(--title__color);
+}
+.events-title p{
+    color: var(--white__color);
+}
 .events-title{
 	display: flex;
 	flex-direction: column;
-
 }
 .events-title *{
 	width: 100%;
@@ -62,7 +71,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 45px;
-	border: 1px solid black ;
+	border: 1px solid white ;
 	padding: 31px;
 	
 
@@ -71,6 +80,7 @@
 time{
 	display: block;
 	margin-top: 25px;
+    color: var(--white__color);
 }
 .event__card img{
 	display: block;
@@ -81,6 +91,13 @@ time{
 }
 .event__card-title p{
 	margin-top: 20px;
+    color: var(--white__color);
+}
+.event__card-date p{
+    color: var(--title__color);
+}
+.event__card-title h3{
+    color: var(--title__color__higlight);
 }
 
 .exhibitions__card a{
