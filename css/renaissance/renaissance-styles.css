@@ -1,0 +1,12 @@
+.renaissance {
+    background-color: var(--background__color__home);
+}
+.renaissance__title {
+    color: var(--title__color__higlight);
+    font-style: normal;
+    font-size: 76px;
+    text-align: center;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 400;
+
+}
