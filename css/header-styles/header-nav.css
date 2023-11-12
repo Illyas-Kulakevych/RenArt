@@ -27,7 +27,10 @@
     font-weight: 400;
     margin-bottom: 5px;
 }
-
+.header__menu a:hover {
+    color: rgba(255, 255, 255, 255);
+    border-bottom: 1px solid white;
+}
 .header__social {
     margin-top: 10px;
     display: flex;

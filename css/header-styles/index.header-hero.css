@@ -94,21 +94,27 @@
     right: 5px;
     position: relative;
 }
+
 .angels__video-circle-text {
     margin-top: 10px;
 }
+
 .angels__video-circle-text .hero__italic-subtitle {
-    margin-top: 5px;;
+
+    
 }
+
 .angels__video-guide {
     color: var(--white__color);
     font-family: 'Antic Didone', serif;
     font-size: 12px;
     font-weight: 400;
 }
+
 .angels__with-date {
     margin-top: 40px;
 }
+
 .angels__thinking-woman {
     width: 241px;
 
@@ -127,7 +133,7 @@
     font-family: "Bacasime Antique", serif;
     color: var(--white__color);
     font-size: 40px;
-    font-weight: 400; 
+    font-weight: 400;
     position: relative;
     bottom: 270px;
     left: 100px;
