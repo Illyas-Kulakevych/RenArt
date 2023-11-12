@@ -26,8 +26,13 @@
 
 .header {
     background-color: var(--background__color__home);
+
 }
 
 .main__index {
     background-color: var(--background__color__home);
+}
+.container {
+    max-width: 1440px;
+    margin: auto;
 }
