@@ -22,6 +22,39 @@
     --descriptive__color__lowlight: #ffffff4f;
     --semi-transparent-white: rgba(255, 255, 255, 0.59);
     scroll-behavior: smooth;
+    
+    /* Font size for content */
+    --button-size: 14px;
+    --small-size: 12px;
+    --text-size: 17px;
+    --subtitle-size: 19px;
+    
+    --caption-size: 14px;
+    --caption-size-desktop: 15px;
+    
+    --quote-size-tablet: 103px;
+    --quote-size: 75px;
+    --quote-size-desktop: 183px;
+    
+    --subheading-size-tablet: 19px;
+    --subheading-size: 18px;
+    --subheading-size-desktop: 21px;
+    
+    --heading-size-tablet: 28px;
+    --heading-size: 24px;
+    --heading-size-desktop: 32px;
+    
+    --heading-lg-size-tablet: 38px;
+    --heading-lg-size: 34px;
+    --heading-lg-size-desktop: 42px;
+    
+    --block-title-size-tablet: 51px;
+    --block-title-size: 40px;
+    --block-title-size-desktop: 62px;
+    
+    --hero-title-size-tablet: 76px;
+    --hero-title-size: 60px;
+    --hero-title-size-desktop: 92px;
 }
 
 .header {
@@ -30,4 +63,16 @@
 
 .main__index {
     background-color: var(--background__color__home);
+}
+
+
+/* Сlasses for text */
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+.uppercase{
+	text-transform: uppercase;
 }

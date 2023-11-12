@@ -1,9 +1,4 @@
-.bold{
-	font-weight: bold;
-}
-.italic{
-	font-style: italic;
-}
+
 .main__events{
     background-color: var(--background__color__exhibition-events);
 }
@@ -46,12 +41,15 @@
 }
 .exhibitions__card-available{
     color: var(--semi-transparent-white);
+	font-size: var( --caption-size);
 }
 .exhibitions__card h3{
     color: var(--title__color__higlight);
+	font-size: var(--heading-size);
 }
 .exhibitions__card span{
     color: var(--title__color);
+	font-size: var(--heading-size);
 }
 .exhibitions__card a{
 	display: inline-block;
@@ -60,6 +58,7 @@
 	padding: 14px 20px;
 	text-align: center;
     color: var(--title__color__higlight);
+	font-size: var(--button-size);
 }
 .exhibitions__card a:hover{
     background-color: var(--title__color__higlight);
@@ -78,14 +77,16 @@
 .events{
 	padding: 50px 24px 80px;
 }
-.event__card-title h2{
+.events-title h2{
     color: var(--title__color__higlight);
+	font-size: var(--hero-title-size);
 }
 .events-title span{
     color: var(--title__color);
 }
 .events-title p{
     color: var(--semi-transparent-white);
+	font-size: var(--text-size);
 }
 .events-title{
 	display: flex;
@@ -107,6 +108,7 @@ time{
 	display: block;
 	margin-top: 25px;
     color: var(--white__color);
+	font-size: var(--small-size);
 }
 .event__card img{
 	display: block;
@@ -118,6 +120,7 @@ time{
 .event__card-title p{
 	margin-top: 20px;
     color: var(--semi-transparent-white);
+	font-size: var(--font-s);
 }
 .event__card-title a{
     text-decoration: none;
@@ -131,9 +134,11 @@ time{
 }
 .event__card-date p{
     color: var(--title__color);
+	font-size: var(--subtitle-size);
 }
 .event__card-title h3{
     color: var(--title__color__higlight);
+	font-size: var(--heading-size);
 }
 
 
@@ -168,6 +173,12 @@ time{
 	}
 	.exhibitions__card div:last-child{
 		margin-top: 35px;
+	}
+	.exhibitions__card h3{
+		font-size: var(--heading-size-tablet);
+	}
+	.exhibitions__card span{
+		font-size: var(--heading-size-tablet);
 	}
 
 
@@ -205,6 +216,13 @@ time{
 		height: 340px;
 	}
 
+	.event__card-title h3{
+		font-size: var(--heading-size-tablet);
+	}
+	.events-title h2{
+		font-size: var(--hero-title-size-tablet);
+	}
+
 }
 
 
@@ -221,6 +239,15 @@ time{
 	}
 	.exhibitions__card div:last-child{
 		margin-top: 40px;
+	}
+	.exhibitions__card h3{
+		font-size: var(--heading-size-desktop);
+	}
+	.exhibitions__card span{
+		font-size: var(--heading-size-desktop);
+	}
+	.exhibitions__card-available{
+		font-size: var( --caption-size-desktop);
 	}
 	
 
@@ -258,6 +285,12 @@ time{
 	}
 	.event__card-date{
 		width: 58%;
+	}
+	.event__card-title h3{
+		font-size: var(--heading-size-desktop);
+	}
+	.events-title h2{
+		font-size: var(--hero-title-size-desktop);
 	}
 
 	.wrapper{
