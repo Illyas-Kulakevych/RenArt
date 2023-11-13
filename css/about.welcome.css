@@ -5,7 +5,7 @@
 }
 
 .welcome__salutation {
-    color: rgb(251, 246, 233);
+    color: var(--poor__white__color);
     font-family: 'Antic Didone', serif;
     font-size: var(--small-size);
     font-weight: 200;
@@ -13,7 +13,7 @@
 }
 
 .welcome__title {
-    color: white;
+    color: var(--white__color);
     font-family: 'Bacasime Antique', serif;
     font-size: var(--block-title-size);
     font-weight: 100;
@@ -33,14 +33,14 @@
 }
 
 .welcome__title--yellow {
-    color: rgb(234, 177, 86);
+    color: var(--title__color__higlight);
     display: block;
     font-size: var(--hero-title-size);
     line-height: 124%;
 }
 
 .welcome__description {
-    color: rgba(255, 255, 255, 0.63);
+    color: var(--semi-transparent-white);
     font-weight: 200;
     text-align: justify;
     margin: 40px 0;
@@ -66,7 +66,7 @@
 }
 
 .welcome__feature-number {
-    color: white;
+    color: var(--white__color);
     font-family: "Antic Didone", serif;
     font-size: var(--small-size);
     font-weight: 400;
@@ -79,7 +79,7 @@
 }
 
 .welcome__feature-description {
-    color: rgba(255, 255, 255, 0.59);
+    color: var(--semi-transparent-white);
     font-family: 'Work Sans', sans-serif;
     text-align: justify;
 }
@@ -100,7 +100,7 @@
 }
 
 .welcome__events-link {
-    color: rgb(251, 246, 233);
+    color: var(--poor__white__color);
     text-decoration: none;
 }
 

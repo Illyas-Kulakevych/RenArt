@@ -27,7 +27,7 @@
 }
 
 .about-gallery__path {
-    color: #fff;
+    color: var(--white__color);
     font-family: 'Antic Didone', serif;
     font-size: var(--small-size);
     font-weight: 100;
