@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root{
     --background__color__home: #241a0d;
     --background__color__exhibition-events: #1D251E;
