@@ -78,3 +78,8 @@
 .uppercase{
 	text-transform: uppercase;
 }
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
