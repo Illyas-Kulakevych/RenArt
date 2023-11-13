@@ -40,7 +40,7 @@
 	height: auto;
 }
 .exhibitions__card-available{
-    color: var(--semi-transparent-white);
+    color: var(--descriptive__color);
 	font-size: var( --caption-size);
 	font-family: 'Work Sans', sans-serif;
 }
@@ -108,7 +108,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 45px;
-	border: 1px solid var(--semi-transparent-white);
+	border: 0.5px solid var(--descriptive__color);
 	padding: 31px;
 }
 time{
