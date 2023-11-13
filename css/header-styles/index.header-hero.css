@@ -1,5 +1,6 @@
 .hero {
     padding: 20px;
+
 }
 
 .hero__italic-subtitle {
@@ -69,7 +70,8 @@
 }
 
 .angels__border-for-picture {
-    width: 260px;
+
+    max-width: 373px;
     padding: 15px;
     border: 3px solid #3b3025;
     border-top-right-radius: 300px;
@@ -97,8 +99,6 @@
 .angels__video-circle-text {
     margin-top: 10px;
 }
-
-.angels__video-circle-text .hero__italic-subtitle {}
 
 .angels__video-guide {
     color: var(--white__color);
@@ -134,9 +134,12 @@
     bottom: 310px;
     left: 180px;
 }
+
 .angels__bottom-text {
     margin-top: 20px;
+
 }
+
 .angels__title {
     color: var(--title__color);
     font-family: "Bacasime Antique", serif;
@@ -145,20 +148,26 @@
     font-style: italic;
 }
 
+.left {
+    margin-top: 20px;
+    display: flex;
+}
+
 .left__exhibitions-link {
     font-family: "Bacasime Antique", serif;
     color: var(--title__color__higlight);
     text-decoration: none;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
 }
 
-.left__arrow {
-    width: 20px;
+.left__arrow-picture {
+    width: 15px;
+    margin: auto 15px;
 }
 
 .right__single-star {
-    width: 25px;
+    width: 15px;
 }
 
 .right__link {
@@ -166,4 +175,11 @@
     font-size: 12px;
     font-weight: 400;
     color: var(--semi-transparent-white);
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
