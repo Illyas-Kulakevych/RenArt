@@ -1,0 +1,47 @@
+.renaissance {
+    background-color: var(--background__color__home);
+}
+
+.beauty__title {
+    color: var(--title__color__higlight);
+    font-style: normal;
+    font-size: 76px;
+    text-align: center;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 400;
+
+}
+
+.renaissance__title {
+    color: var(--title__color);
+    font-style: italic;
+    font-size: 76px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.we-strive-to-create {
+    color: var(--descriptive__color);
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.online-guide {
+    color: #fbf6e9;
+    font-style: normal;
+    font-size: 12px;
+    font-family: 'Antic Didone', serif;
+    font-weight: 400;
+}
+
+.period-of-renissance {
+    color: var(--descriptive__color__hilight);
+    font-size: 17px;
+    font-style: normal;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+
+}

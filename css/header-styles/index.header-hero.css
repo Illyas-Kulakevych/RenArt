@@ -1,16 +1,24 @@
+.hero {
+    padding: 20px;
+
+}
+
 .hero__italic-subtitle {
     color: var(--descriptive__color);
     font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     font-style: italic;
+    margin-top: 20px;
+
 }
 
 .hero__title {
     color: var(--title__color__higlight);
     font-family: "Bacasime Antique", serif;
-    font-size: 92px;
+    font-size: 60px;
     font-weight: 400;
+    margin-top: 30px;
 }
 
 .hero__title-beauty {
@@ -24,14 +32,15 @@
 }
 
 .hero__divider {
-    width: 278px;
+    width: 142px;
+    margin: 15px 0 15px 0;
 }
 
 .hero__text {
-    width: 330px;
     color: var(--semi-transparent-white);
     font-family: "Bacasime Antique", serif;
     text-align: justify;
+    font-size: 17px;
 }
 
 .button__learn-more {
@@ -45,15 +54,50 @@
     font-size: 14px;
     font-family: "Work Sans", sans-serif;
     font-weight: 700;
-    margin-left: 20px;
+    margin-top: 10px;
 }
 
+.button__learn-more:hover {
+
+    background-color: rgb(234, 177, 86);
+    color: var(--white__color);
+    transition: 0.5s;
+
+}
+
+.angels {
+    margin-top: 40px;
+}
+
+.angels__border-for-picture {
+
+    max-width: 373px;
+    padding: 15px;
+    border: 3px solid #3b3025;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+
+}
+
+
 .angels__angel-picture {
-    width: 300px;
+    width: 100%;
+
+}
+
+.angels__video-circle-container {
+    display: flex;
 }
 
 .angels__video-in-circle {
-    width: 100px;
+    width: 89px;
+    bottom: 30px;
+    right: 5px;
+    position: relative;
+}
+
+.angels__video-circle-text {
+    margin-top: 10px;
 }
 
 .angels__video-guide {
@@ -63,44 +107,67 @@
     font-weight: 400;
 }
 
+.angels__with-date {
+    margin-top: 40px;
+}
+
 .angels__thinking-woman {
-    width: 200px;
+    width: 186px;
+
 }
 
 .angels__star-behind-woman {
     opacity: 0.1;
-    height: 332px;
+    width: 129px;
+    position: relative;
+    bottom: 375px;
+    left: 150px;
+
 }
 
 .angels__year {
     font-family: "Bacasime Antique", serif;
     color: var(--white__color);
-    font-size: 62px;
+    font-size: 40px;
     font-weight: 400;
+    position: relative;
+    bottom: 310px;
+    left: 180px;
+}
+
+.angels__bottom-text {
+    margin-top: 20px;
+
 }
 
 .angels__title {
     color: var(--title__color);
     font-family: "Bacasime Antique", serif;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
     font-style: italic;
+}
+
+.left {
+    margin-top: 20px;
+    display: flex;
 }
 
 .left__exhibitions-link {
     font-family: "Bacasime Antique", serif;
     color: var(--title__color__higlight);
     text-decoration: none;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 400;
 }
 
-.left__arrow {
-    width: 20px;
+.left__arrow-picture {
+    width: 15px;
+    margin: auto 15px;
 }
 
 .right__single-star {
-    width: 25px;
+    width: 15px;
 }
 
 .right__link {
@@ -108,4 +175,11 @@
     font-size: 12px;
     font-weight: 400;
     color: var(--semi-transparent-white);
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
