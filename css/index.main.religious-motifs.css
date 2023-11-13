@@ -1,0 +1,59 @@
+.religious {
+    background-color: var(--background__color__home);
+}
+
+.religious__title {
+    color: var(--title__color__higlight);
+    font-family: 'Bacasime Antique', serif;
+    font-style: italic;
+}
+
+.religious__artist-title {
+    color: var(--poor__white__color);
+    font-family: 'Bacasime Antique', serif;
+}
+
+.religious__painting-title {
+    color: var(--title__color);
+    font-family: 'Bacasime Antique', serif;
+}
+
+.religious__description {
+    color: var(--descriptive__color__hilight);
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+}
+
+.religious__cta {
+    color: var(--title__color__higlight);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.religious__event-title {
+    color: var(--title__color__higlight);
+    font-family: 'Bacasime Antique', serif;
+}
+
+.religious__event-subtitle {
+    color: var(--white__color);
+    font-family: 'Bacasime Antique', serif;
+    font-style: italic;
+}
+
+.religious__event-date {
+    color: var(--white__color);
+    font-family: 'Bacasime Antique', serif;
+    font-style: normal;
+}
+
+.religious__subtitle {
+    color: var(--poor__white__color);
+    font-family: 'Antic Didone', serif;
+    font-style: normal 
+}
+
+.religious__quote {
+    color: var(--descriptive__color);
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+}
