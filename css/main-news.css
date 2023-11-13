@@ -1,5 +1,5 @@
 .news{
-    max-width: 1168px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .news{
@@ -71,7 +71,7 @@
 
 .news-image-beaty p:first-of-type, .captivating-text p:first-of-type, .gallery-text p:first-of-type{
     color: var(--poor__white__color);
-    font-family: 'Antic Didone', serif;
+    font-family: "Antic Didone", serif;
     font-size: 12px;
     padding-bottom: 15px;
 }
