@@ -2,35 +2,47 @@
     background-color: var(--background__color__location);
 }
 
+html {
+    font-size: 10px;
+  }
+
+.location__head {
+    width: 320px;
+    height: 137.038;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0px 90px 0px;
+}
+
 .location__main__title {
     color: var(--title__color__higlight);
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Bacasime Antique', serif
 }
 
 .location__titles {
     color: var(--title__color__higlight);
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-family: 'Bacasime Antique', serif
 }
 
 .location__subtitles {
     color: var(--white__color);
-    font-size: 17px;
+    font-size: 1.7rem;
     font-family: "Work Sans", sans-serif;
 }
 
 .location__header__titles {
     color: var(--white__color);
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Antic Didone', serif
 }
 
 .location__links a {
     font-family: "Work Sans", sans-serif;
-    font-size: 17px;
+    font-size: 1.7rem;
     text-decoration: none;
     color: var(--white__color);
 }
@@ -38,7 +50,7 @@
 .booking__field__title {
     text-align: center;
     color: var(--title__color__higlight);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: 'Bacasime Antique', serif
 }
 
@@ -68,8 +80,9 @@
 .location__img__star {
     display: flex;
     justify-content: center;
-    width: 272px;
+    width: 190px;
     margin: 0 auto;
+    /* min-width: 350px; */
 }
 
 .location__booking__field, .location__map {
