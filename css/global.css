@@ -25,6 +25,8 @@
     --descriptive__color: #ffffff54;
     --descriptive__color__lowlight: #ffffff4f;
     --semi-transparent-white: rgba(255, 255, 255, 0.59);
+    --button__color: rgb(234, 177, 86);
+    --border__angel-color: #3b3025;
     scroll-behavior: smooth;
     
     /* Font size for contentigt */
