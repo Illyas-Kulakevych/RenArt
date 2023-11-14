@@ -1,38 +1,14 @@
-.container{
-    padding: 10px;
-    max-width: 1500px;
-    margin: auto;
-    display: grid;
+*{
     background-color: var(--background__color__artgallery);
-    /* border: 1px solid seagreen; */
 }
-.decoration{
-    display: grid;
-    /* border: 1px solid rgb(112, 216, 143); */
-    align-content: end;
+element.style {
+    background: url(../../img/img-artgallery/sleeping-princess.png)63.44% 69.71% / cover no-repeat, rgb(35, 17, 7);
 }
-.central__box{
-    display: grid;
-    justify-content: center;
-    /* border: 1px solid palevioletred; */
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.central__box .box{
-    display: grid;
-    grid-template-columns: 1f 1f;
-    padding: 5px;
-    /* border: 1px solid blue; */
-    grid-gap: 10px;
-    justify-content: center;
-    
-}
-img{
-    width: 100%;
-    height: auto;
-}
-.lady__red-ribbon{
-    max-width:390px;
-    max-height:490px;
+.container{
+    margin: auto;
+    max-width: 1200px;
+    background-color: var(--background__color__artgallery);
+    padding: 0px 24px;
 }
 .hilight__star{
     max-width: 35px;
@@ -41,109 +17,92 @@ img{
 .star__stick{
     max-width: 20px;
     height: 430px;
-    justify-self: center;
-    grid-column-start: 4;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
 }
-.accordion{
-    justify-self: start;
-    align-self: center;
-    grid-column-start: 1;
-    grid-column-end: 10;
-    grid-row-start: 2;
-    grid-row-end: 2;
-}
-.accordion-button{
-    background-color: var(--background__color__artgaller); 
-    color: var(--title__color);
-    cursor: pointer;
-    padding: 20px;
-    border: 0;
-    text-align: right;
-    outline: none;
+.ask__title{
     font-family: 'Bacasime Antique', serif;
-    text-align: left;
-    font-size: 24px;
-    transition: 0.3s;
+    color:var(--title__color);
+    font-size: 40px;
+    font-style: italic;
 }
- .active, .accordion-button:hover{
-    background-color: var(--background__color__artgaller);
+.text__hilight{
+    color: var(--title__color__higlight);
 }
-.accordion-button:after {
-    content: '\002B';
-    color: var(--white__color);
-    font-weight: bold;
-    margin-left: 5px;
-    float: right;
-}
-.active:after {
-    content: "\2212";
-}
-.panel{
-    padding: 0 20px;
-    background-color: var(--background__color__artgaller);
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-}
-img{
-    width: 100%;
-    height: auto;
-}
-.lady__red-ribbon{
-    max-width:475px;
-    max-height:597px;
-}
-.right__sidebar .answer{
-    display: grid;
-    /* border: 1px solid red; */
+.star__stick{
+    display: none;
 }
 .advise__text{
-    font-size: 25px;
+    display: grid;
+    font-size: 17px;
     font-family:'Work Sans', sans-serif;
     color: var(--descriptive__color__most-hilight);
-    font-weight: bold;
-    grid-column-start: 1;
-    grid-column-end: 10;
+    
 }
 .answers-text{
     font-size: 17px;
     font-family:'Work Sans', sans-serif;
     color: var(--descriptive__color__most-hilight);
-    font-weight: bold;
 }
-.speaker__name{
-    justify-self: end;
-    align-self: end;
-    color: var(--descriptive__color);
+.accordion{
+    display: grid;
+    outline: 1px solid red;
 }
-.ask__title{
+.accordion-button{
+    background-color: var(--background__color__artgallery); 
+    color: var(--title__color);
+    cursor: pointer;
+    padding: 20px 0px;
+    border: 0;
     font-family: 'Bacasime Antique', serif;
-    color:var(--title__color);
-    font-size: 59px;
-
+    font-size: 24px;
+    font-style: italic;
+    text-align: left;
 }
-.text__hilight{
-    color: var(--title__color__higlight);
+.active, .accordion-button:hover{
+    background-color: var(--background__color__artgallery);
 }
-.sleeping-princess{
-    width: 100%;
-    height: auto;
-    z-index: 0;
+.accordion-button:after {
+    content: '\002B';
+    color: var(--white__color);
+    font-weight: bold;
+    margin-left: 20px;
+    float: right;
+    height: 15px;
+    width: 15px;
+}
+.active:after {
+    content: "\2212";
+    
+}
+.panel{
+    padding: 0 20px;
+    background-color: var(--background__color__artgallery);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.right__sidebar{
+    display: grid;
+    margin-top: 50px;
+    padding: 0px 15px;
 }
 .ticket__text{
-    font-family: 'Bacasime Antique', serif;
-    font-size: 80px;
+    font-style: italic;
+    font-size: 60px;
     color: var(--white__color);
-    z-index: 1;
 }
 .top-right__arrow{
-    max-width: 33px;
-    max-height: 33px;
+    max-width: 28px;
+    max-height: 28px;
 }
-.decoration{
-    display: grid;
-    /* border: 1px solid orange; */
+.speaker__name{
+    color: var(--descriptive__color);
+    font-size: 14px;
+    font-style: italic;
+}
+.lady__red-ribbon{
+    margin-top: 50px;
+    padding: 0 15px;
+}
+.sleeping-princess{
+   
 }
