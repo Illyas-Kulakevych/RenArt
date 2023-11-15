@@ -1,18 +1,79 @@
 @media (min-width: 768px){
     .central__box{
         display: grid;
-/*         outline: 1px solid blue; */
-        
+        justify-content: end;
+        /* outline: 1px solid blue;  */
+        grid-template-columns: 1fr 1fr 3fr;
+
     }
     .right__sidebar{
-        justify-self: center;
-        align-self: start;
-        grid-column-start: 2;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 4;
+        justify-self: self-end;
+        align-self: center;
+        grid-column-start: auto;
+        grid-column-start: 3;
+        grid-column-end: auto;
     }
-    .accordion__button{
-        overflow:hidden
+    .lady__red-ribbon{
+        max-width: 450px;
+        max-height: 490px;
+        align-self: center;
+        grid-column-start: 2;
+    }
+    .speaker__name{
+        display: grid;
+        justify-content: center;
+        align-self: end;
+        grid-column-start: -4;
+        grid-column-end: -5;
+        grid-row-start: 4;
+        grid-row-end: 1;
+        font-weight: bold;
+    }
+    .star__stick{
+        display: block !important;
+        justify-self: center;
+        grid-column-start: auto;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .hilight__star{
+        display: block;
+        position: relative;
+        left: -75px;
+        bottom: -50px;
+    }
+    .sleeping-princess{
+        z-index: 0;
+    }
+}
+@media (min-width: 768px){
+    .accordion-button{
+        font-size: 28px !important;
+    }
+    .ask__title{
+        font-size: 51px !important;
+    }
+    .ticket__text{
+        font-size: 76px !important;
+    }
+}
+@media  (min-width: 992px){
+    .ask__title { 
+        font-size: 62px !important;
+    }
+    .accordion-button{
+        font-size: 32px !important;
+    }
+    .ticket__text{
+        font-size: 92px !important;
+    }
+}
+@media  (max-width: 768px){
+    .star__stick{
+        display: none;
+    }
+    .ticket__text{
+        transform: scale(0.7)
     }
 }
