@@ -1,0 +1,67 @@
+.titles__welcome {
+    font-size: var(--heading-size);
+    font-family: 'Bacasime Antique', serif;
+    color: var(--title__color__higlight)
+}
+
+.titles__explore, .gateway__span {
+    font-size: var(--caption-size);
+    /* font-family: 'Bacasime Antique', serif; */
+    font-family: 'Work Sans', sans-serif;
+    color: var(--descriptive__color) !important;
+    font-style: italic;
+}
+
+.titles__embrace {
+    font-family: 'Bacasime Antique', sans-serif;
+    font-size: var(--block-title-size);
+    font-weight: 400;
+    color: var(--title__color__higlight);
+}
+
+.titles__embrace p {
+    display: inline;
+}
+
+.embrace__where-art {
+    font-family: 'Bacasime Antique', sans-serif;
+    font-size: var(--block-title-size);
+    font-weight: 400;
+    color: var(--title__color__higlight);
+}
+
+.embrace__time-ignites {
+    font-family: 'Bacasime Antique', sans-serif;
+    font-size: var(--block-title-size);
+    font-weight: 400;
+    color: var(--title__color);
+}
+
+.embrace__soul{
+    font-family: 'Bacasime Antique', sans-serif;
+    font-size: var(--block-title-size);
+    font-weight: 400;
+    color: var(--title__color__higlight);
+}
+
+
+.embrace__span-invite, .embrace__span-passion {
+    font-size: var(--text-size);
+    font-weight: 400;
+    color: var(--descriptive__color__hilight);
+    font-family: 'Work Sans', sans-serif;
+}
+
+.gateway__paragraph {
+    font-size: var(--heading-size);
+    font-family: 'Bacasime Antique', serif;
+    color: var(--title__color)
+}
+
+.embrace__illustration {
+    max-width: 100%;
+}
+
+.embrace__illustration, .embrace__star {
+    width: 300px;
+}
