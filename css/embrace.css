@@ -6,9 +6,8 @@
 
 .titles__explore, .gateway__span {
     font-size: var(--caption-size);
-    /* font-family: 'Bacasime Antique', serif; */
     font-family: 'Work Sans', sans-serif;
-    color: var(--descriptive__color) !important;
+    color: var(--descriptive__color) ;
     font-style: italic;
 }
 
