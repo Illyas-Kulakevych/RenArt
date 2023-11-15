@@ -6,6 +6,9 @@
     /* display: flex; */
 }
 
+
+
+
 .hero__italic-subtitle {
     color: var(--descriptive__color);
     font-family: 'Work Sans', sans-serif;
@@ -22,12 +25,13 @@
     font-size: 60px;
     font-weight: 400;
     margin-top: 30px;
-
+ 
 }
 
 .hero__title-beauty {
     color: var(--title__color);
     font-style: italic;
+    
 }
 
 .hero__title-time {
@@ -46,6 +50,7 @@
     text-align: justify;
     font-size: 17px;
     letter-spacing: normal;
+    max-width: 272px;
 }
 
 .button__learn-more {
@@ -107,16 +112,18 @@
 
 .angels__video-circle-text p {
     font-size: 12px;
+    margin-top: 5px;
 }
 
 .hero__woman-wrapper {
     margin-top: 40px;
-    position: relative;
-
+    max-width: 280px;
 }
-
-.angels__thinking-woman {
+.hero__woman-with-items {
+    position: relative;
     max-width: 186px;
+}
+.angels__thinking-woman {
     position: relative;
     z-index: 10;
 
@@ -126,14 +133,27 @@
     opacity: 0.1;
     width: 129px;
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 20px;
+    right: -90px;
     z-index: 5;
 }
-
+.angels__year {
+    font-family: "Bacasime Antique", serif;
+    color: var(--white__color);
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 40px;
+    right: -80px;
+    z-index: 15;
+}
 .angels__bottom-text {
     margin-top: 20px;
 
+}
+
+.angels__bottom-text p {
+    margin-top: 5px;
 }
 
 .angels__title {
@@ -144,18 +164,12 @@
     font-style: italic;
 }
 
-.angels__year {
-    font-family: "Bacasime Antique", serif;
-    color: var(--white__color);
-    font-size: 40px;
-    font-weight: 400;
-    position: absolute;
-    bottom: 85px;
-    right: 10px;
-    z-index: 15;
+.hero__exhibitions {
+    margin-top: 30px;
 }
+
 .left {
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
 }
 
@@ -171,9 +185,15 @@
     width: 15px;
     margin: auto 15px;
 }
-
+.right {
+    max-width: 272px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .right__single-star {
     width: 15px;
+
 }
 
 .right__link {
@@ -181,4 +201,42 @@
     font-size: 12px;
     font-weight: 400;
     color: var(--semi-transparent-white);
+}
+
+
+@media (min-width:768px) {
+    .hero__title {
+        font-size: 76px;
+    }
+    .hero__text {
+        max-width: 432px;
+    }
+    .hero-container {
+        position: relative;
+
+    }
+    .hero__woman-wrapper {
+        position: absolute;
+        top: 60px;
+        right: -70px;
+
+    }
+    .angels__star-behind-woman {
+        width: 202px;
+        right: 120px;
+        top: 40px;
+    }
+    .angels__year {
+        left: -49px;
+        bottom: 135px;
+        font-size: 52px;
+    }
+    .angels__bottom-text {
+        position: relative;
+
+    }
+    .angels__title .angels__subtitle{
+        position: absolute;
+        left: 10px;
+    }
 }
