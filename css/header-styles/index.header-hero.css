@@ -1,6 +1,9 @@
 .hero {
     padding: 20px;
+}
 
+.hero-container {
+    /* display: flex; */
 }
 
 .hero__italic-subtitle {
@@ -19,6 +22,7 @@
     font-size: 60px;
     font-weight: 400;
     margin-top: 30px;
+
 }
 
 .hero__title-beauty {
@@ -41,12 +45,13 @@
     font-family: "Bacasime Antique", serif;
     text-align: justify;
     font-size: 17px;
+    letter-spacing: normal;
 }
 
 .button__learn-more {
     width: 116px;
-    border: 1px solid rgb(234, 177, 86);
-    color: rgb(234, 177, 86);
+    border: 1px solid var(--button__color);
+    color: var(--button__color);
     padding: 10px;
     text-decoration: none;
     display: block;
@@ -59,30 +64,21 @@
 
 .button__learn-more:hover {
 
-    background-color: rgb(234, 177, 86);
+    background-color: var(--button__color);
     color: var(--white__color);
     transition: 0.5s;
-
 }
 
-.angels {
+.hero__angels-wrapper {
     margin-top: 40px;
 }
 
 .angels__border-for-picture {
-
     max-width: 373px;
     padding: 15px;
-    border: 3px solid #3b3025;
+    border: 3px solid var(--border__angel-color);
     border-top-right-radius: 300px;
     border-top-left-radius: 300px;
-
-}
-
-
-.angels__angel-picture {
-    width: 100%;
-
 }
 
 .angels__video-circle-container {
@@ -90,14 +86,16 @@
 }
 
 .angels__video-in-circle {
-    width: 89px;
+    max-width: 89px;
     bottom: 30px;
     right: 5px;
     position: relative;
+
 }
 
 .angels__video-circle-text {
     margin-top: 10px;
+    margin-left: 25px;
 }
 
 .angels__video-guide {
@@ -107,32 +105,30 @@
     font-weight: 400;
 }
 
-.angels__with-date {
+.angels__video-circle-text p {
+    font-size: 12px;
+}
+
+.hero__woman-wrapper {
     margin-top: 40px;
+    position: relative;
+
 }
 
 .angels__thinking-woman {
-    width: 186px;
+    max-width: 186px;
+    position: relative;
+    z-index: 10;
 
 }
 
 .angels__star-behind-woman {
     opacity: 0.1;
     width: 129px;
-    position: relative;
-    bottom: 375px;
-    left: 150px;
-
-}
-
-.angels__year {
-    font-family: "Bacasime Antique", serif;
-    color: var(--white__color);
-    font-size: 40px;
-    font-weight: 400;
-    position: relative;
-    bottom: 310px;
-    left: 180px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 5;
 }
 
 .angels__bottom-text {
@@ -148,6 +144,16 @@
     font-style: italic;
 }
 
+.angels__year {
+    font-family: "Bacasime Antique", serif;
+    color: var(--white__color);
+    font-size: 40px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 85px;
+    right: 10px;
+    z-index: 15;
+}
 .left {
     margin-top: 20px;
     display: flex;
@@ -175,11 +181,4 @@
     font-size: 12px;
     font-weight: 400;
     color: var(--semi-transparent-white);
-}
-
-.right {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }

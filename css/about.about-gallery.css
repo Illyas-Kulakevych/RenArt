@@ -1,0 +1,38 @@
+.about-gallery {
+    padding: 60px 24px 90px 24px;
+    background-color: var(--background__color__home);
+}
+
+.about-gallery__title {
+    color: var(--title__color__higlight);
+    font-family: 'Bacasime Antique', serif;
+    font-size: var(--block-title-size);
+    font-weight: 100;
+    text-align: center;
+}
+
+.about-gallery__title em {
+    color: var(--title__color);
+}
+
+.about-gallery__image-container {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.about-gallery__image {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-gallery__path {
+    color: var(--white__color);
+    font-family: 'Antic Didone', serif;
+    font-size: var(--small-size);
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 2px;
+}

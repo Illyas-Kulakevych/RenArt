@@ -40,16 +40,19 @@
 	height: auto;
 }
 .exhibitions__card-available{
-    color: var(--semi-transparent-white);
+    color: var(--descriptive__color);
 	font-size: var( --caption-size);
+	font-family: 'Work Sans', sans-serif;
 }
 .exhibitions__card h3{
     color: var(--title__color__higlight);
 	font-size: var(--heading-size);
+	font-family: "Bacasime Antique", serif;
 }
 .exhibitions__card span{
     color: var(--title__color);
 	font-size: var(--heading-size);
+	font-family: "Bacasime Antique", serif;
 }
 .exhibitions__card a{
 	display: inline-block;
@@ -59,6 +62,7 @@
 	text-align: center;
     color: var(--title__color__higlight);
 	font-size: var(--button-size);
+	font-family: 'Work Sans', sans-serif;
 }
 .exhibitions__card a:hover{
     background-color: var(--title__color__higlight);
@@ -80,13 +84,16 @@
 .events-title h2{
     color: var(--title__color__higlight);
 	font-size: var(--hero-title-size);
+	font-family: "Bacasime Antique", serif;
 }
 .events-title span{
     color: var(--title__color);
+	font-family: "Bacasime Antique", serif;
 }
 .events-title p{
     color: var(--semi-transparent-white);
 	font-size: var(--text-size);
+	font-family: 'Work Sans', sans-serif;
 }
 .events-title{
 	display: flex;
@@ -101,7 +108,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	margin-top: 45px;
-	border: 1px solid var(--semi-transparent-white);
+	border: 0.5px solid var(--descriptive__color);
 	padding: 31px;
 }
 time{
@@ -109,6 +116,7 @@ time{
 	margin-top: 25px;
     color: var(--white__color);
 	font-size: var(--small-size);
+	font-family: 'Work Sans', sans-serif;
 }
 .event__card img{
 	display: block;
@@ -121,6 +129,7 @@ time{
 	margin-top: 20px;
     color: var(--semi-transparent-white);
 	font-size: var(--font-s);
+	font-family: 'Work Sans', sans-serif;
 }
 .event__card-title a{
     text-decoration: none;
@@ -139,6 +148,7 @@ time{
 .event__card-title h3{
     color: var(--title__color__higlight);
 	font-size: var(--heading-size);
+	font-family: "Bacasime Antique", serif;
 }
 
 

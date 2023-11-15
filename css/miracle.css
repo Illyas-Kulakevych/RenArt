@@ -1,0 +1,39 @@
+.miracle{
+    padding: 20px;
+}
+
+.miracle__title,
+.miracle__subtitle{
+    color: var(--title__color__higlight);
+    font-family: "Bacasime Antique", serif;
+}
+
+.miracle__subtitle-hilight{
+color: var(--title__color);
+}
+
+.miracle__subtitle{
+    font-weight: var(--block-title-size);
+    min-height: 120px;
+}
+
+.title__block{
+    min-height: 120px;
+    display: block;
+}
+
+.miracle__title{
+    font-weight: var(--hero-title-size);
+    font-size: 60px;
+}
+
+.miracle__photo-subtitle{
+    display: flex;
+    flex-direction: row;
+}
+
+.miracle__image-woman{
+    min-width: 118px;
+    min-height: 336px;
+    padding-right: 20px;
+}

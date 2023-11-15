@@ -1,0 +1,110 @@
+.welcome {
+    background-color: var(--background__color__artgallery);
+    padding: 50px 24px 40px 24px;
+    position: relative;
+}
+
+.welcome__salutation {
+    color: var(--poor__white__color);
+    font-family: 'Antic Didone', serif;
+    font-size: var(--small-size);
+    font-weight: 200;
+    letter-spacing: 1.2px;
+}
+
+.welcome__title {
+    color: var(--white__color);
+    font-family: 'Bacasime Antique', serif;
+    font-size: var(--block-title-size);
+    font-weight: 100;
+    font-size: var(--block-title-size);
+    line-height: 40px;
+    margin-top: 30px;
+}
+
+.welcome__title span {
+    display: block;
+}
+
+
+.welcome__image-girl {
+    max-width: 254px;
+    width: 72%;
+}
+
+.welcome__title--yellow {
+    color: var(--title__color__higlight);
+    display: block;
+    font-size: var(--hero-title-size);
+    line-height: 124%;
+}
+
+.welcome__description {
+    color: var(--semi-transparent-white);
+    font-weight: 200;
+    text-align: justify;
+    margin: 40px 0;
+}
+
+.welcome__description--italic {
+    color: rgba(255, 255, 255, 0.33);
+    font-style: italic;
+}
+
+.welcome__description--bold {
+    font-weight: 900;
+}
+
+.welcome__feature {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.welcome__feature {
+    margin-top: 20px;
+}
+
+.welcome__feature-number {
+    color: var(--white__color);
+    font-family: "Antic Didone", serif;
+    font-size: var(--small-size);
+    font-weight: 400;
+}
+
+.welcome__feature-title {
+    color: var(--title__color__higlight);
+    font-size: var(--heading-size);
+    font-weight: 400;
+}
+
+.welcome__feature-description {
+    color: var(--semi-transparent-white);
+    font-family: 'Work Sans', sans-serif;
+    text-align: justify;
+}
+
+.welcome__image-forest-work {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.welcome__flex-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.welcome__image-octagram {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.welcome__events-link {
+    color: var(--poor__white__color);
+    text-decoration: none;
+}
+
+.welcome__image-vertical-lines {
+    height: 200px;
+    width: auto;
+}
