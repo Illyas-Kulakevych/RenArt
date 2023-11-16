@@ -2,16 +2,16 @@
     background-color: var(--background__color__location);
 }
 
-/* html {
-    font-size: 10px;
-  } */
-
 .location__head {
     width: 320px;
     height: 137.038;
     margin-left: auto;
     margin-right: auto;
-    padding: 60px 0px 90px 0px;
+}
+
+location__header {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .location__main__title {
@@ -27,17 +27,53 @@
     .location__main__title {
       font-size: 40px;
     }
+    .location__head {
+        padding: 60px 0px 90px 0px;
+    }
+    .location__header {
+        padding: 100px 0px 100px 0px;
+    }
+    .location__img__gallery {
+        padding: 0px 20px 0px 20px;
+    }
+    .location_contacts {
+        padding: 0px 20px 0px 20px;
+    }
   }
 
 @media screen and (min-width: 769px) and (max-width: 990px) {
     .location__main__title {
       font-size: 51px;
     }
+    .location__head {
+        padding: 60px 0px 95px 0px;
+    }
+    .location__header {
+        padding: 90px 0px 90px 0px;
+    }
+    .location__img__gallery {
+        padding: 0px 40px 0px 40px;
+    }
+    .location_contacts {
+        padding: 0px 40px 0px 40px;
+    }
   }
 
 @media screen and (min-width: 991px) {
     .location__main__title {
       font-size: 62px;
+    }
+    .location__head {
+        padding: 60px 0px 100px 0px;
+    }
+    .location__header {
+        padding: 150px 0px 150px 0px;
+    }
+    .location__img__gallery {
+        padding: 0px 40px 0px 40px;
+    }
+    .location_contacts {
+        padding: 0px 40px 0px 40px;
     }
   }
 
@@ -55,20 +91,25 @@
 .location__titles {
     color: var(--title__color__higlight);
     font-size: var(--heading-size);
-    font-family: 'Bacasime Antique', serif
+    font-family: 'Bacasime Antique', serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    word-spacing: 2px;
 }
 
 .location__subtitles {
     color: var(--white__color);
     font-size: var(--text-size);
     font-family: "Work Sans", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    word-spacing: 2px;
 }
 
 .location__current-position {
     color: var(--white__color);
     font-family: 'Antic Didone', serif;
     font-size: var(--small-size);
-    font-weight: 100;
     letter-spacing: 1px;
     text-align: center;
     margin-top: 20px;
