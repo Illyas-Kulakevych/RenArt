@@ -35,10 +35,11 @@
     gap: 20px;
 }
 
-.header__menu-item a{
+.header__menu-item a {
 
     padding: 4px;
 }
+
 .header__menu-item a:hover {
     color: var(--menu-item-link-hover);
 }
@@ -73,7 +74,7 @@
 }
 
 
-.header__menu{
+.header__menu {
     display: none;
 
 }
@@ -88,6 +89,7 @@
     transition: opacity 0.5s ease;
     order: 3;
 }
+
 .header__menu-btn:hover {
     opacity: 0.6;
 }
@@ -167,10 +169,12 @@
         width: 100%;
         justify-content: space-between;
     }
+
     .header__menu-list {
         flex-direction: row;
         margin: auto;
     }
+
     .header__menu-item a:hover {
         color: var(--menu-item-link-hover);
         border-bottom: 1px solid var(--menu-item-link-border-bottom-hover);

@@ -2,9 +2,9 @@
     background-color: var(--background__color__location);
 }
 
-html {
+/* html {
     font-size: 10px;
-  }
+  } */
 
 .location__head {
     width: 320px;
@@ -17,32 +17,67 @@ html {
 .location__main__title {
     color: var(--title__color__higlight);
     text-align: center;
-    font-size: 3rem;
-    font-family: 'Bacasime Antique', serif
+    font-family: 'Bacasime Antique', serif;
+    box-sizing: border-box;
+    font-size: var(--block-title-size);
+    font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+    .location__main__title {
+      font-size: 40px;
+    }
+  }
+
+@media screen and (min-width: 769px) and (max-width: 990px) {
+    .location__main__title {
+      font-size: 51px;
+    }
+  }
+
+@media screen and (min-width: 991px) {
+    .location__main__title {
+      font-size: 62px;
+    }
+  }
+
+.location__image-container {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.location__img__star {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .location__titles {
     color: var(--title__color__higlight);
-    font-size: 2.4rem;
+    font-size: var(--heading-size);
     font-family: 'Bacasime Antique', serif
 }
 
 .location__subtitles {
     color: var(--white__color);
-    font-size: 1.7rem;
+    font-size: var(--text-size);
     font-family: "Work Sans", sans-serif;
 }
 
-.location__header__titles {
+.location__current-position {
     color: var(--white__color);
+    font-family: 'Antic Didone', serif;
+    font-size: var(--small-size);
+    font-weight: 100;
+    letter-spacing: 1px;
     text-align: center;
-    font-size: 1.2rem;
-    font-family: 'Antic Didone', serif
+    margin-top: 20px;
+    word-spacing: 2px;
 }
 
 .location__links a {
     font-family: "Work Sans", sans-serif;
-    font-size: 1.7rem;
+    font-size: var(--text-size);
     text-decoration: none;
     color: var(--white__color);
 }
@@ -77,14 +112,6 @@ html {
     justify-content: center;
 }
 
-.location__img__star {
-    display: flex;
-    justify-content: center;
-    width: 190px;
-    margin: 0 auto;
-    /* min-width: 350px; */
-}
-
 .location__booking__field, .location__map {
     position: relative;
 }
@@ -95,9 +122,4 @@ html {
     background-color: var(--background__color__location);
     margin-left: auto;
     margin-right: auto;
-}
-
-img {
-    display: block;
-    width: 100%;
 }

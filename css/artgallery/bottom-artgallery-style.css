@@ -3,6 +3,7 @@
     max-width: 1200px;
     background-color: var(--background__color__artgallery);
     padding: 0px 24px;
+    font-weight: 400;
 }
 .hilight__star{
     max-width: 35px;
@@ -38,7 +39,6 @@
 }
 .accordion{
     display: grid;
-    /*     outline: 1px solid red; */
 }
 .accordion-button{
     background-color: var(--background__color__artgallery); 
@@ -50,6 +50,9 @@
     font-size: 24px;
     font-style: italic;
     text-align: left;
+    border-bottom: 1px solid #9f7647;
+    transition: 0.3s;
+    outline: none;
 }
 .active, .accordion-button:hover{
     background-color: var(--background__color__artgallery);
@@ -83,18 +86,38 @@
     font-style: italic;
     font-size: 60px;
     color: var(--white__color);
+    font-family: 'Bacasime Antique', serif;
 }
 .top-right__arrow{
-    max-width: 28px;
-    max-height: 28px;
+    max-width: 21px;
+    max-height: 21px;
+    margin-left: 18px;
 }
 .speaker__name{
     color: var(--descriptive__color);
     font-size: 14px;
     font-style: italic;
+    font-family: 'Work Sans', sans-serif;
 }
 .lady__red-ribbon{
     margin-top: 50px;
     padding: 0 15px;
 }
-    
+.ticket__item{
+    position: absolute;
+}
+.bottom-page{
+    font-weight: 400;
+}
+.container h2, p{
+    font-weight: 400;
+}
+.bottom-page h2, p{
+    font-weight: 400;
+}
+.sleeping-princess{
+    display: none;
+}
+.small__sleeping-princess{
+    display: block;
+}
