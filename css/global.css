@@ -27,6 +27,10 @@
     --semi-transparent-white: rgba(255, 255, 255, 0.59);
     --button__color: rgb(234, 177, 86);
     --border__angel-color: #3b3025;
+    --menu-item-link-hover: white;
+    --social-media-links: rgb(234, 177, 86);
+    --navicon-burge-menu:gray;
+    --menu-item-link-border-bottom-hover:white;
     scroll-behavior: smooth;
     
     /* Font size for contentigt */
@@ -87,4 +91,12 @@ img{
     display: block;
     width: 100%;
     height: auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.fixed {
+    width: 100%;
+    position: fixed;
 }
