@@ -14,7 +14,8 @@ color: var(--title__color);
 
 .miracle__subtitle{
     font-weight: var(--block-title-size);
-    min-height: 120px;
+    width: 176px;
+    height: 120px;
 }
 
 .title__block{
