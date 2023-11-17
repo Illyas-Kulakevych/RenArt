@@ -1,40 +1,101 @@
-.miracle{
+.container{
     padding: 20px;
 }
 
-.miracle__title,
-.miracle__subtitle{
-    color: var(--title__color__higlight);
-    font-family: "Bacasime Antique", serif;
-}
-
-.miracle__subtitle-hilight{
-color: var(--title__color);
-}
-
-.miracle__subtitle{
-    font-weight: var(--block-title-size);
-    width: 176px;
-    height: 120px;
-}
-
-.title__block{
+.miracle__block{
+    min-width: 349px;
     min-height: 120px;
-    display: block;
+    position: relative; 
+    z-index: 10;
+    margin-left: 10px;
 }
 
 .miracle__title{
+    color: var(--title__color__higlight);
+    font-family: "Bacasime Antique", serif;
     font-weight: var(--hero-title-size);
     font-size: 60px;
+    scale: 0.83;
+    margin-left: -30px;
+    line-height: 60px;
 }
 
 .miracle__photo-subtitle{
     display: flex;
-    flex-direction: row;
 }
 
 .miracle__image-woman{
-    min-width: 118px;
-    min-height: 336px;
-    padding-right: 20px;
+    max-width: 400px;
+    min-width: 170px;
+    min-height: 350px;
+    scale: 0.83;
+    position: relative; 
+    z-index: 6; 
+    margin-top: -60px;
+    margin-left: -10px;
+}
+
+.photo_info{
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-left: -17px;
+}
+
+.miracle__subtitle-block{
+    position: relative;
+    z-index: 5;
+}
+
+.miracle__subtitle{
+    color: var(--title__color__higlight);
+    font-family: "Bacasime Antique", serif;
+    font-weight: var(--block-title-size);
+    white-space: normal;
+    word-wrap: break-word;
+    font-size: 2em;
+    width: 100%;    
+}
+
+.miracle__subtitle em{
+    color: var(--title__color);
+}
+
+.photo__year{
+    color: var(--white__color);
+    font-family: "Bacasime Antique", serif;
+    font-weight: var(--hero-title-size);
+    width: 100%;
+    font-size: var(--block-title-size-tablet);
+    margin-top: 13px;
+    margin-left: -15px;
+    margin-bottom: 52px;
+    position: relative;
+    z-index: 10;
+}
+
+.miracle__artist,
+.miracle__picture{
+    font-family: "Work Sans", serif;
+    color: var(--white__color);
+    opacity: 0.4;
+    font-weight: var(--button-size);
+    margin-left: -5px;
+    scale: 0.7;
+    width: 100%
+}
+
+.miracle__picture{
+    margin-bottom: -5px;
+}
+
+.miracle__artist{
+    line-height: 23px;
+}
+
+
+@media (min-width:768px) {
+    .miracle__image-woman{
+        max-width: 300px;
+    }
 }
