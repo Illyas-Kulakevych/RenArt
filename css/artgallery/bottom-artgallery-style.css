@@ -100,6 +100,7 @@
     font-size: 17px;
     font-family:'Work Sans', sans-serif;
     color: var(--descriptive__color__most-hilight);
+    filter: drop-shadow(0 0 0.3rem rgb(161, 104, 19));
     font-weight: 400;
     font-size: 17px;
     overflow: hidden;
