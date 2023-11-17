@@ -17,8 +17,8 @@
   margin-bottom: 25px;
 }
 .background-linestar {
-  background-image: url(img/artworks-images/horizontalline.svg),
-    url(img/artworks-images/yellowstar.svg);
+  background-image: url(../../img/artworks-images/horizontalline.svg),
+    url(../../img/artworks-images/yellowstar.svg);
   background-repeat: no-repeat;
   background-position: 85% 25%, 81% 60%;
   background-size: 10% 100%, 5% 5%;
@@ -90,7 +90,7 @@
   display: none;
 }
 .background-oval {
-  background-image: url(img/artworks-images/ovalbackground.svg);
+  background-image: url(../../img/artworks-images/ovalbackground.svg);
   background-position: 50% 50%;
   background-size: 85% 100%;
   background-repeat: no-repeat;
@@ -109,7 +109,7 @@
   margin-left: 15%;
 }
 .background-dame{
-  background-image: url(img/artworks-images/backgroundletters.svg);
+  background-image: url(../../img/artworks-images/backgroundletters.svg);
   background-repeat: no-repeat;
   background-size: 90% 75%;
   background-position: 70% 100%;
