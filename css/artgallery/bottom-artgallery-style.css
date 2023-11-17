@@ -3,10 +3,12 @@
     max-width: 1200px;
     background-color: var(--background__color__artgallery);
     padding: 0px 24px;
+    font-weight: 400;
 }
 .hilight__star{
     max-width: 35px;
     max-height: 35px;
+    filter: drop-shadow(0 0 0.3rem rgb(161, 104, 19));
 }
 .star__stick{
     max-width: 20px;
@@ -36,43 +38,85 @@
     font-family:'Work Sans', sans-serif;
     color: var(--descriptive__color__most-hilight);
 }
+
 .accordion{
-    display: grid;
-    /*     outline: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
 }
-.accordion-button{
-    background-color: var(--background__color__artgallery); 
-    color: var(--title__color);
-    cursor: pointer;
-    padding: 20px 0px;
-    border: 0;
+.accordion__title{
     font-family: 'Bacasime Antique', serif;
-    font-size: 24px;
+    font-size: 27.35px ;
+    font-weight: 400;
     font-style: italic;
-    text-align: left;
-}
-.active, .accordion-button:hover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    padding: 15px 5px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--color-border-brown);
+    border-top: none;
+    color: var(--title__color);
     background-color: var(--background__color__artgallery);
 }
-.accordion-button:after {
-    content: '\002B';
-    color: var(--white__color);
-    font-weight: bold;
-    margin-left: 20px;
-    float: right;
-    height: 15px;
-    width: 15px;
+.accordion__title.active{
+    box-shadow: 0 0 12px 1px var(--color-border-active-light);
 }
-.active:after {
-    content: "\2212";
-    
+.accordion__title span{
+    display: inline-flex;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    transform: rotate(0);
+    transition: transform 0.5s ease-out;
 }
-.panel{
-    padding: 0 20px;
-    background-color: var(--background__color__artgallery);
-    max-height: 0;
+.accordion__title span::before{
+    content:"";
+    position:absolute;
+    width: 20px;
+    height: 2px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-plus-white);
+}
+.accordion__title span::after{
+    content:"";
+    position:absolute;
+    width: 2px;
+    height: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-plus-white);
+}
+.accordion__title.active span{
+    transform: rotate(45deg);
+}
+.accordion__content{
+    font-size: 17px;
+    font-family:'Work Sans', sans-serif;
+    color: var(--descriptive__color__most-hilight);
+    font-weight: 400;
+    font-size: 17px;
     overflow: hidden;
-    transition: max-height 0.3s ease-out;
+    padding: 0 20px;
+    box-sizing: content-box;
+    border: 1px solid var(--color-border-brown);
+    border-top: none;
+    max-height: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.1s ease-out 0.5s, visibility 0.1s ease-out 0.5s;
+}
+.accordion__content.active{
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out, opacity 0.1s ease-out, visibility 0.1s ease-out;
 }
 .right__sidebar{
     display: grid;
@@ -83,18 +127,49 @@
     font-style: italic;
     font-size: 60px;
     color: var(--white__color);
+    font-family: 'Bacasime Antique', serif;
 }
 .top-right__arrow{
-    max-width: 28px;
-    max-height: 28px;
+    max-width: 21px;
+    max-height: 21px;
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+.ticket__item:hover .top-right__arrow{
+    filter: drop-shadow(0 0 0.50rem rgb(230, 141, 7));
+    transform: rotate(360deg);
+    transition: 0.7s ease-out;
 }
 .speaker__name{
     color: var(--descriptive__color);
     font-size: 14px;
     font-style: italic;
+    font-family: 'Work Sans', sans-serif;
 }
 .lady__red-ribbon{
     margin-top: 50px;
     padding: 0 15px;
+    filter: drop-shadow(0 0 0.50rem rgb(161, 104, 19)); 
 }
-    
+.ticket__item{
+    position: absolute;
+}
+.bottom-page{
+    font-weight: 400;
+}
+.bottom-page:hover{
+    filter: drop-shadow(0 0 0.50rem rgb(230, 141, 7)); 
+}
+.container h2, h3, p{
+    font-weight: 400;
+}
+.bottom-page h2, h3, p{
+    font-weight: 400;
+}
+.sleeping-princess{
+    display: none;
+}
+.small__sleeping-princess{
+    display: block;
+}
