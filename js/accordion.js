@@ -1,17 +1,23 @@
-const boxes = Array.from(document.querySelectorAll(".accordion-button"));
+const titles = document.querySelectorAll('.accordion__title');
+const contents = document.querySelectorAll('.accordion__content');
 
-boxes.forEach((box) => {
-  box.addEventListener("click", boxHandler);
-});
+  titles.forEach(item => item.addEventListener('click', () => {
+        const activeContent = document.querySelector('#' + item.dataset.tab);
 
-function boxHandler(e) {
-  e.preventDefault();
-  let currentBox = e.target.closest(".accordion-button");
-  let currentContent = e.target.nextElementSibling;
-  currentBox.classList.toggle("active");
-  if(currentBox.classList.contains("active")){
-    currentContent.style.maxHeight = currentContent.scrollHeight + "px";
-  }else{
-    currentContent.style.maxHeight = 0;
-  }
-}
+        if (activeContent.classList.contains('active')) {
+          activeContent.classList.remove('active');
+          item.classList.remove('active');
+          activeContent.style.maxHeight = 0;
+        } else {
+          contents.forEach(element => {
+            element.classList.remove('active');
+            element.style.maxHeight = 0;
+          })
+
+          titles.forEach(element => element.classList.remove('active'));
+
+          item.classList.add('active');
+          activeContent.classList.add('active');
+          activeContent.style.maxHeight = activeContent.scrollHeight + 'px';
+        }
+  }))

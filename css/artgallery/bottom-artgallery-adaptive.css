@@ -17,6 +17,7 @@
         grid-column-start: auto;
         grid-column-start: 3;
         grid-column-end: auto;
+        align-self: center;
     }
     .lady__red-ribbon{
         max-width: 450px;
@@ -72,14 +73,9 @@
         max-height: 33px !important;
         margin-left: 0px !important;
     }
-    .accordion-button{
-        border-bottom: 1px solid #9f7647;
-    }
 }
 @media (min-width: 768px){
-    .accordion-button{
-        font-size: 28px !important;
-    }
+    
     .ask__title{
         font-size: 51px !important;
     }
@@ -109,6 +105,9 @@
     }
     .ticket__text{
         transform: scale(0.7)
+    }
+    .ticket__item{
+        filter: drop-shadow(0 0 0.50rem rgb(230, 141, 7));
     }
 }
 @media (min-width: 768px){

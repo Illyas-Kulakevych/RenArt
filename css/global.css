@@ -34,6 +34,9 @@
     --navicon-burge-menu:gray;
     --menu-item-link-border-bottom-hover:white;
     --social-media-links-hover: #775722;
+    --color-plus-white: white;
+    --color-border-brown: #4d3a1c;
+    --color-border-active-light: rgb(226, 151, 30);
     scroll-behavior: smooth;
     
     /* Font size for contentigt */
