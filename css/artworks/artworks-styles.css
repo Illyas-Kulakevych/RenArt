@@ -1,84 +1,136 @@
 .artworks {
-    background-color: var(--background__color__home);
-  }
-  .artworks__image-container{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  .artworks__title {
-    color: var(--title__color__higlight);
-    font-style: italic;
-    font-size: 10vw;
-    text-align: center;
-    font-weight: 400;
-    font-family: "Bacasime Antique", serif;
-    margin-bottom: 25px;
-  }
-  .artworks__image{
-    max-width: 450px;
-    max-height: 577px;
-    position: relative;
-  }
-  .artworks__image-lady {
-    width: 80%;
-    height: auto;
-  }
-  .artworks__image-mary {
-    width: 80%;
-    height: auto;
-  }
-  .artworks__image-hunt {
-    width: 75%;
-    height: auto;
+  background-color: var(--background__color__home);
+}
+.artworks__image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.artworks__title {
+  color: var(--title__color__higlight);
+  font-style: italic;
+  font-size: 10vw;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Bacasime Antique", serif;
+  margin-bottom: 25px;
+}
+.background-linestar {
+  background-image: url(/img/artworks-images/horizontalline.svg),
+    url(/img/artworks-images/yellowstar.svg);
+  background-repeat: no-repeat;
+  background-position: 85% 25%, 81% 60%;
+  background-size: 10% 100%, 5% 5%;
+}
+.artworks__image-container-flex {
+  display: flex;
+  margin-top: 10%;
+}
+.artworks__image {
+  max-width: 767px;
+  max-height: 577px;
+}
+.artworks__image-lady {
+  width: 55%;
+  margin-left: 25px;
+}
+.artworks__image-mary {
+  width: 115%;
+  height: auto;
+  margin-left: 25px;
+}
+.artworks__image-hunt {
+  width: 90%;
+  height: auto;
+}
+
+.image-hunt {
+  margin-top: -75px;
+  margin-left: 25px;
+}
+
+.artworks__caption {
+  color: var(--descriptive__color);
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 19.6px;
+  width: 40%;
+  margin: 25px;
+}
+.mary-img {
+  width: 100%;
+}
+.hunting {
+  text-align: center;
+  width: 80%;
+  padding-left: 30px;
+}
+
+.learningtext__paragraph {
+  font-family: "Work Sans", sans-serif;
+  color: var(--descriptive__color__most-hilight);
+  font-weight: bold;
+  margin: 5% 25px;
+
+}
+.learningtext__paragraph-additional {
+  font-family: "Work Sans", sans-serif;
+  color: var(--semi-transparent-white);
+  font-weight: 500;
+  margin: 5% 25px;
+}
+.artworks__img-gravin {
+  width: 60%;
+  margin: auto;
+}
+.gravin-caption {
+  display: none;
+}
+.background-oval {
+  background-image: url(/img/artworks-images/ovalbackground.svg);
+  background-position: 50% 50%;
+  background-size: 85% 100%;
+  background-repeat: no-repeat;
+}
+.artworks__additional-flex {
+  display: flex;
+  margin-top: 10%;
+}
+.artworks__additional-flex-container {
+  display: flex;
+  flex-direction: column;
+
+}
+.artworks__img-dame {
+  width: 75%;
+  margin-left: 15%;
+}
+.background-dame{
+  background-image: url(/img/artworks-images/backgroundletters.svg);
+  background-repeat: no-repeat;
+  background-size: 90% 75%;
+  background-position: 70% 100%;
+}
+.caption__dame{
+  margin: 10px auto;
+  width: 50%;
+
+}
+.artworks__img-eagle {
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.caption__eagle{
+  width: 90%;
+  margin: 0 auto;
   
-  }
-  .image-hunt{
-    position: absolute;
-    bottom: 50%;
-    left: 40%;
-    transform: translate(20%, 70%);
-  }
-  
-  .artworks__caption {
-    color: var(--descriptive__color);
-    font-size: 14px;
-    font-family: "Work Sans", sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 19.6px;
-    width: 30%;
-  }
-  .hunting{
-    text-align: end;
-    width: 100%;
-    position: relative;
-  
-  }
-  
-  
-  .learningtext__paragraph {
-    font-family: "Work Sans", sans-serif;
-    font-size: 17px;
-    color: var(--descriptive__color__most-hilight);
-    font-weight: bold;
-  }
-  .learningtext__paragraph-additional {
-    font-family: "Work Sans", sans-serif;
-    font-size: 17px;
-    color: var(--semi-transparent-white);
-    font-weight: 500;
-  }
-  .artworks__img-dame {
-    width: 220px;
-  }
-  .artworks__img-eagle {
-    width: 210px;
-  }
-  .artworks__img-gravin {
-    width: 280px;
-  }
-  .artworks__caption-img{
-    width: 20px;
-  }
-  
+}
+.artworks__caption-img {
+  width: 28%
+}
+.artworks__caption-link{
+margin: 25px;
+}
