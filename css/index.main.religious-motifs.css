@@ -5,55 +5,99 @@
 .religious__title {
     color: var(--title__color__higlight);
     font-family: 'Bacasime Antique', serif;
-    font-style: italic;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 20px;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .religious__artist-title {
+    border-width: 80px;
     color: var(--poor__white__color);
     font-family: 'Bacasime Antique', serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
 .religious__painting-title {
     color: var(--title__color);
     font-family: 'Bacasime Antique', serif;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .religious__description {
     color: var(--descriptive__color__hilight);
     font-family: 'Work Sans', sans-serif;
     font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
 }
 
 .religious__cta {
     color: var(--title__color__higlight);
     font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    margin-left: 10px;
+    text-decoration: underline;
 }
 
-.religious__event-title {
-    color: var(--title__color__higlight);
-    font-family: 'Bacasime Antique', serif;
-}
-
-.religious__event-subtitle {
+.religious__subtitle {
     color: var(--white__color);
     font-family: 'Bacasime Antique', serif;
-    font-style: italic;
+    font-size: 35px;
 }
 
 .religious__event-date {
     color: var(--white__color);
     font-family: 'Bacasime Antique', serif;
     font-style: normal;
+    bottom: 40px;
+    right: 10px;
+    z-index: 10;
 }
 
-.religious__subtitle {
+.religious__addition-to-title {
     color: var(--poor__white__color);
     font-family: 'Antic Didone', serif;
-    font-style: normal 
+    font-style: normal;
+    padding-right: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.religious__content-block,
+.religious__image-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .religious__quote {
     color: var(--descriptive__color);
     font-family: 'Work Sans', sans-serif;
     font-style: italic;
+    font-size: 15px;
+    margin-left: 20px;
+    vertical-align: baseline;
 }
+
+.religious__image {
+    width: 300px;
+    object-fit: cover;
+}
+
+.religious__content-block {
+    border: 10px 20px;
+    text-align: justify;
+}
+
