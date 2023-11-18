@@ -1,6 +1,10 @@
 .renaissance {
     background-color: var(--background__color__home);
 }
+.free-area-container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .beauty__title {
     color: var(--title__color__higlight);
