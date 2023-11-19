@@ -8,3 +8,8 @@ function makeNegative(num) {
 
 //Ivashkovych
 const makeNegative = (num) => num > 0 ? num - 2*num : num
+
+//Kavyn
+function makeNegative(num) {
+    return - num;
+  }

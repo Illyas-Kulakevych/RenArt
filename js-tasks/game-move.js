@@ -7,3 +7,8 @@ function move(position, roll) {
 
 //Ivashkovych
 const move = (position, roll) => position = position + 2*roll
+
+//Kavyn
+function move (position, roll) {
+    return position + roll * 2;
+  }

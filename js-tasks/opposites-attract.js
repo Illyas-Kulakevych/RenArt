@@ -7,3 +7,8 @@ function lovefunc(flower1, flower2){
 
 //Ivashkovych
 const lovefunc = (flower1, flower2) => (flower1 + flower2) % 2 === 1
+
+//Kavyn
+function lovefunc(flower1, flower2){
+  return (flower1 & 1) !== (flower2 & 1);
+}
