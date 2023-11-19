@@ -18,7 +18,7 @@
 }
 .background-linestar {
   background-image: url(../../img/artworks-images/horizontalline.svg),
-    url(/img/artworks-images/yellowstar.svg);
+    url(../../img/artworks-images/yellowstar.svg);
   background-repeat: no-repeat;
   background-position: 85% 25%, 81% 60%;
   background-size: 10% 100%, 5% 5%;
