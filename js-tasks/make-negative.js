@@ -5,3 +5,6 @@
 function makeNegative(num) {
     return (num > 0 ? -num : num)
 }
+
+//Ivashkovych
+const makeNegative = (num) => num > 0 ? num - 2*num : num
