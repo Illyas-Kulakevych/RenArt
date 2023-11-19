@@ -64,3 +64,15 @@
 .embrace__illustration, .embrace__star {
     width: 300px;
 }
+
+.eternal__description-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.eternal__description{
+    color: var(--semi-transparent-white);
+    font-family: 'Work Sans', sans-serif;
+    font-size: var(--text-size);
+}

@@ -1,6 +1,10 @@
 .renaissance {
     background-color: var(--background__color__home);
 }
+.free-area-container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
 
 .beauty__title {
     color: var(--title__color__higlight);
@@ -27,6 +31,7 @@
     font-size: 15px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
+    text-align: center;
 }
 
 .online-guide {
@@ -35,6 +40,7 @@
     font-size: 12px;
     font-family: 'Antic Didone', serif;
     font-weight: 400;
+    
 }
 
 .period-of-renissance {
@@ -44,4 +50,19 @@
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
 
+}
+
+.image-queen {
+    width: 314px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.play-button {
+    width: 58px;
+}
+
+.star-logo {
+    width: 22px;
 }

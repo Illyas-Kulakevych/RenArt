@@ -1,0 +1,12 @@
+//https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
+
+//Vittsivskyi
+
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return (laLigaGoals + copaDelReyGoals + championsLeagueGoals);
+}
+
+//Ivashkovych
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals
+}
