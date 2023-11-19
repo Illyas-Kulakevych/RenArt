@@ -2,7 +2,6 @@
 
 //Vittsivskyi
 
-function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
-    const totalGoals = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-    return totalGoals
-  }
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return (laLigaGoals + copaDelReyGoals + championsLeagueGoals);
+}
