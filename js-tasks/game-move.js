@@ -4,3 +4,6 @@
 function move(position, roll) {
     return (position + roll * 2)
 }
+
+//Ivashkovych
+const move = (position, roll) => position = position + 2*roll
