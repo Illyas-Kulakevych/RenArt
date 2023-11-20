@@ -12,3 +12,8 @@ const lovefunc = (flower1, flower2) => (flower1 + flower2) % 2 === 1
 function lovefunc(flower1, flower2){
   return (flower1 & 1) !== (flower2 & 1);
 }
+
+//Kulakevych
+function lovefunc(flower1, flower2){
+  return (flower1 % 2 !== flower2 % 2);
+}
