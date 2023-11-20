@@ -13,3 +13,8 @@ const makeNegative = (num) => num > 0 ? num - 2*num : num
 function makeNegative(num) {
     return - num;
   }
+
+//kulakevych
+function makeNegative(num) {
+  return num < 0 ? num : num * -1;
+}
