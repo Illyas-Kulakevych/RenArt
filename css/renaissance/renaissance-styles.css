@@ -88,3 +88,9 @@
     
 
 }
+.online-guide {
+    color: var(--poor__white__color);
+    font-family: "Antic Didone", serif;
+    font-weight: 400px;
+    font-size: 12px;
+}
