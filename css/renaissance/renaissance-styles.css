@@ -1,9 +1,11 @@
 .renaissance {
     background-color: var(--background__color__home);
+    max-width: 1200px;
 }
 .free-area-container {
-    padding-left: 10%;
-    padding-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 45% 10% 11% 10% 10% 4%;
 }
 
 .beauty__title {
@@ -53,9 +55,8 @@
 }
 
 .image-queen {
-    width: 314px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin: auto;
 
 }
 
