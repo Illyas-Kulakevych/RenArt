@@ -1,69 +1,90 @@
-.renaissance {
-    background-color: var(--background__color__home);
-    max-width: 1200px;
-}
-.free-area-container {
+.beauty__title {
+    font-size: 45px;
+    color: var(--title__color__higlight);
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 25% 45% 10% 11% 10% 10% 4%;
+    position: relative;
+    bottom: -30px;
+    z-index: 1;
 }
 
-.beauty__title {
-    color: var(--title__color__higlight);
-    font-style: normal;
-    font-size: 76px;
-    text-align: center;
-    font-family: 'Bacasime Antique', serif;
-    font-weight: 400;
+.renaissance {
+    padding: 0px 20px;
+
+}
+.logo-container {
+    display: grid;
+    justify-content: center;
+}
+.star-logo {
+    max-width: 16px;
+    max-height: 16px;
+    margin-top: 20px;
+}
+
+.queen-button-guide {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    z-index: 0;
+    display: grid;
+    grid-template-rows: 1fr 10px;
+    justify-content: center;
 
 }
 
-.renaissance__title {
-    color: var(--title__color);
-    font-style: italic;
-    font-size: 76px;
-    font-family: 'Bacasime Antique', serif;
-    font-weight: 400;
-    text-align: center;
-}
-
-.we-strive-to-create {
-    color: var(--descriptive__color);
-    font-style: italic;
-    font-size: 15px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 500;
-    text-align: center;
-}
-
-.online-guide {
-    color: #fbf6e9;
-    font-style: normal;
-    font-size: 12px;
-    font-family: 'Antic Didone', serif;
-    font-weight: 400;
+.play-button {
+    max-width: 40px;
+    max-height: 40px;
     
 }
-
-.period-of-renissance {
-    color: var(--descriptive__color__hilight);
-    font-size: 17px;
-    font-style: normal;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
+.button-guide {
+    z-index: 1;
+    position: relative;
+    bottom: 130px;
+    left: -15px;
 
 }
 
 .image-queen {
     width: 100%;
-    margin: auto;
+    height: auto;
+    z-index: 0;
+    max-width: 240px;
+    max-height: 258px;
 
 }
+.renaissance__title {
+    text-align: center;
+    font-style: italic;
+    font-family: "Bacasime Antique", serif;
+    color: var( --title__color);
+    font-size: 49px;
+    font-weight: 400;
 
-.play-button {
-    width: 58px;
+
 }
+.period-of-renissance {
+    text-align: center;
+    color: var(--descriptive__color__most-hilight);
+    font-size: 13px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    padding: 0 10px;
+}
+.we-strive {
+    text-align: center;
+    color: var(--descriptive__color);
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+    padding: 0 15px;
+    margin-top: 15px ;
+    
 
-.star-logo {
-    width: 22px;
 }
