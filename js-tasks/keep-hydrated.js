@@ -12,3 +12,8 @@ const litres = (time, litres) => litres = Math.floor(time/2)
 function litres(time) {
     return Math.floor(time * 0.5);
   }
+
+// Kulakevych 
+function litres(time) {
+  return time * 0.5 | 0;
+}
