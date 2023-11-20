@@ -1,25 +1,33 @@
-// https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
+//https://www.codewars.com/kata/grasshopper-messi-goals-function/train/javascript
 
-function evenOrOdd(number) {
-  // Перевірити число на парність
-  if (number % 2 === 0) {
-    // Якщо парне, то повернути "Even"
-    return "Even";
-  } else {
-    // Якщо непарне, то повернути "Odd"
-    return "Odd";
-  }
+function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return laLigaGoals + copaDelReyGoals + championsLeagueGoals;
 }
 
-// https://www.codewars.com/kata/53da3dbb4a5168369a0000fe/train/javascript
+//https://www.codewars.com/kata/grasshopper-terminal-game-move-function/train/javascript
 
-function evenOrOdd(number) {
-  // Перевірити число на парність
-  if (number % 2 === 0) {
-    // Якщо парне, то повернути "Even"
-    return "Even";
-  } else {
-    // Якщо непарне, то повернути "Odd"
-    return "Odd";
-  }
+const move = (position, roll) => (position = position + 2 * roll);
+
+//https://www.codewars.com/kata/keep-hydrated-1/train/javascript
+
+function litres(time) {
+  return (time * 0.5) | 0;
+}
+
+//https://www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
+
+function makeNegative(num) {
+  return -num;
+}
+
+//https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
+
+function lovefunc(flower1, flower2) {
+  return flower1 % 2 !== flower2 % 2;
+}
+
+//https://www.codewars.com/kata/grasshopper-personalized-message/train/javascript
+
+function greet(name, owner) {
+  return name === owner ? "Hello boss" : "Hello guest";
 }
