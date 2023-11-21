@@ -97,3 +97,8 @@ function cockroachSpeed(s) {
 function otherAngle(a, b) {
   return 180 - a - b;
 }
+
+//https://www.codewars.com/kata/5b853229cfde412a470000d0/train/javascript
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return dadYearsOld - sonYearsOld === 0 ? dadYearsOld : Math.abs(dadYearsOld - sonYearsOld * 2) 
+}
