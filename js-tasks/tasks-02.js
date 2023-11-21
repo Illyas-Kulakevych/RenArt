@@ -71,3 +71,9 @@ function doubleInteger(i) {
   // i will be an integer. Double it and return it.
   return i*2;
 }
+
+//https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097/train/javascript
+function century(year) {
+  // Finish this :)
+  return year % 100 === 0 ? Math.floor(year/100) : Math.ceil(year/100);
+}
