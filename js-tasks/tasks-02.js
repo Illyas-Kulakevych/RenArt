@@ -112,3 +112,14 @@ function nthEven(n){
 function getRealFloor(n) {
   return n < 0 ? n : n < 13 ? n - 1 : n -2 ;
 }
+
+//https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
+function past(h, m, s){
+  const millisecInSeconds = 1000;
+  const secondsInMinutes = 60;
+  const minutesInHour = 60;
+  
+  return h * minutesInHour * secondsInMinutes * millisecInSeconds 
+       + m * secondsInMinutes * millisecInSeconds
+       + s * millisecInSeconds
+}
