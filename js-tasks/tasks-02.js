@@ -29,6 +29,10 @@ function min(arr, toReturn) {
   }
 }
 
+function min(arr, toReturn) {
+  return toReturn === 'value' ? Math.min(...arr) : arr.indexOf(Math.min(...arr));
+}
+
 //https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
 //A wolf in sheep's clothing
 function warnTheSheep(queue) {
