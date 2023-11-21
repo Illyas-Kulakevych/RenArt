@@ -82,3 +82,13 @@ function century(year) {
 function makeNegative(num) {
   return num < 0 ? num : -num
 }
+
+//https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6/train/javascript
+function cockroachSpeed(s) {
+  const metersInKilometers = 1000;
+  const santimetersInMeters= 100;
+  const secondsInMinute = 60;
+  const minutesInHour = 60;
+  
+  return Math.floor(s * metersInKilometers * santimetersInMeters / (minutesInHour * secondsInMinute));
+}
