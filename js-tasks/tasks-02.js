@@ -45,6 +45,12 @@ function warnTheSheep(queue) {
   }
 }
 
+function warnTheSheep(queue) {
+  return queue[queue.length - 1] === 'wolf' 
+    ? "Pls go away and stop eating my sheep" 
+    :`Oi! Sheep number ${queue.length - 1 - queue.lastIndexOf('wolf')}! You are about to be eaten by a wolf!`
+}
+
 //https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
 //Beginner - Lost Without a Map
 const maps = (x) => x.map((x) => x * 2);
