@@ -3,18 +3,19 @@
 }
 
 .location__head {
+    min-width: 320px;
     background-color: var(--background__color__footer);
 }
 
 .location__head__field {
-    width: 320px;
+    min-width: 272px;
     height: 137.038;
     margin-left: auto;
     margin-right: auto;
 }
 
 .location__header-field {
-    min-width: 320px;
+    min-width: 312px;
     min-height: 677.450px;
 }
 
@@ -40,10 +41,13 @@
     .location__head {
         padding: 60px 0px 90px 0px;
     }
-    .location__header {
-        padding: 100px 0px 100px 0px;
+    .location__head__field {
+        padding: 0px 24px 0px 24px;
     }
-    .location__img__gallery {
+    .location__header {
+        padding: 100px 4px 100px 4px;
+    }
+    .location__gallery {
         padding: 0px 20px 0px 20px;
     }
     .location_contacts {
@@ -59,14 +63,14 @@
     .location__head {
         padding: 60px 0px 95px 0px;
     }
+    .location__head__field {
+        padding: 0px 32px 0px 32px;
+    }
     .location__header {
-        padding: 90px 0px 90px 0px;
+        padding: 90px 12px 90px 12px;
     }
-    .location__img__gallery {
-        padding: 0px 40px 0px 40px;
-    }
-    
     .location__gallery {
+        padding: 0px 40px 0px 40px;
         float: left;
     }
 
@@ -93,14 +97,14 @@
     .location__head {
         padding: 60px 0px 100px 0px;
     }
-    .location__header {
-        padding: 150px 0px 150px 0px;
-    }
-    .location__img__gallery {
+    .location__head__field {
         padding: 0px 40px 0px 40px;
     }
-
+    .location__header {
+        padding: 150px 20px 150px 20px;
+    }
     .location__gallery {
+        padding: 0px 40px 0px 40px;
         float: left;
     }
 
@@ -119,14 +123,14 @@
         height: 100%;
     }
   }
-
+  
 .location__image-container {
     margin-top: 25px;
     margin-bottom: 20px;
 }
 
 .location__img__star {
-    max-width: 350px;
+    max-width: 360px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -155,7 +159,7 @@
     font-size: var(--small-size);
     letter-spacing: 1px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 27px;
     word-spacing: 2px;
 }
 
