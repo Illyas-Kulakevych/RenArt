@@ -3,6 +3,17 @@
 class SmallestIntegerFinder {
   findSmallestInt = (args) => Math.min(...args);
 }
+//cycle version
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let min = args[0];
+    for (let i = 1; i < args.length; i++) {
+      if (args[i] < min) min = args[i];
+    }
+    return min;
+  }
+}
+
 
 //https://www.codewars.com/kata/58e43389acfd3e81d5000a88/train/javascript
 //Geometry Basics: Circle Circumference in 2D
@@ -11,25 +22,20 @@ const circleCircumference = (circle) => 2 * Math.PI * circle.radius;
 //https://www.codewars.com/kata/5722b3f0bd5583cf44001000/train/javascript
 //Training JS #12: loop statement --for..in and for..of
 function giveMeFive(obj) {
-  const resultArray = [];
-  for (const key in obj) {
-    if (key.length === 5) {
-      resultArray.push(key);
-    }
-    const value = obj[key];
-    if (value && value.length === 5) {
-      resultArray.push(value);
-    }
+  let val = [];
+  for (let key in obj) {
+    if (key.length === 5) val.push(key);
+    if (obj[key].length === 5) val.push(obj[key]);
   }
-  return resultArray;
+  return val;
 }
   
 //https://www.codewars.com/kata/56b71b1dbd06e6d88100092a/train/javascript
 //Understanding closures - the basics
 function buildFun(n) {
-  let res = [];
-  for (let i = 0; i < n; i++) res.push(() => i);
-  return res;
+  let val = [];
+  for (let i = 0; i < n; i++) val.push(() => i);
+  return val;
 }
 
 
