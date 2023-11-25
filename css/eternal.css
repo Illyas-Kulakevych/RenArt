@@ -8,27 +8,26 @@
     font-family: "Bacasime Antique", serif;
     font-weight: var(--quote-size);
     font-size: 9vh;
-
 }
 
 .eternal__header-container {
     display: block;
     width: 100%;
+    height: 110px;
 }
 
 .eternal__header {
-    /* margin-bottom: -25px; */
     margin-bottom: -7.5vw;
 }
 
 .eternal__sub-header {
-    /* margin-left: 110px; */
     margin-left: 37vw;
 }
 
 .eternal__image {
     margin-top: -45px; 
     margin-bottom: 9px;
+    padding: 0 40px 0 0;
     min-height: 267px;
     min-width: 231px;
     max-width: 606px;
@@ -123,14 +122,76 @@
     min-height: 121px;
 }
 
-
-
+@media (max-width:767px){
+    .eternal__arrow768{
+        display: none;
+    }
+    } 
+    
 @media (min-width:768px){
     .eternal__image{
-        max-width: 410px;
-        /* max-height: 480px; */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        min-height: 458px;
+    }
+    .eternal__header-container{
+        display: flex;
+    }
+    .eternal__header {
+        margin-bottom: 0;
+    }
+    .eternal__sub-header {
+        margin-left: 5vw;
+    }
+    .eternal__header,
+    .eternal__sub-header {
+        font: var(--quote-size-tablet) "Bacasime Antique", serif;
+    }
+    .eternal__section-header{
+        width: 280px;
+        font: var(--block-title-size-tablet) "Bacasime Antique", serif;
+        scale: 1;
+        margin: 0;
+    }
+    .eternal__sub-section-header{
+        font: var(--block-title-size-tablet) "Bacasime Antique", serif;
+        scale: 1;
+        width: 320px;
+    }
+    .eternal__sub-section{
+        display: block;
+    }
+    .eternal__description{
+        font : var(--text-size) 'Work Sans', sans-serif;
+        width: 278px;
+    }
+    .eternal__vision-photo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .eternal__image {
+        order: 2;
+      }
+      
+    .eternal__vision {
+        order: 1;
+      }
+    .eternal__arrow{
+        display: none;
+    }
+    .eternal__arrow768{
+        width: 20px;
+        margin: 15px;
+    }
+    .eternal__divider{
+        width: 253px;
     }
 }
+
+
+
+
 
 
 
