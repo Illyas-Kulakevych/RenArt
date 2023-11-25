@@ -155,6 +155,7 @@
 }
 .ticket__item{
     position: absolute;
+    margin-top: 78px;
 }
 .bottom-page{
     font-weight: 400;
@@ -173,4 +174,18 @@
 }
 .small__sleeping-princess{
     display: block;
+}
+.artgallery__clock{
+    display: block;
+    z-index: 1;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--title__color__higlight) ;
+    font-size: 9px;
+    text-decoration: none;
+    text-align: center;
+}
+.artgallery__clock p{
+    font-size: 30px;
 }
