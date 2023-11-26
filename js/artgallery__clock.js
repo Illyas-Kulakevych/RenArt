@@ -8,8 +8,7 @@ function updateTimer() {
   let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-  document.getElementById("timer").innerHTML =
-    `${days}d, ${hours}hrs: ${minutes}m: ${seconds}s`;
+  document.getElementById("timer").innerHTML = `${days}d, ${hours}hrs: ${minutes}m: ${seconds}s`;
 }
 updateTimer();
 
