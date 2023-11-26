@@ -3,7 +3,6 @@
 }
 
 .miracle__block{
-    /* min-width: 349px; */
     width: 100%;
     min-height: 120px;
     position: relative; 
@@ -28,17 +27,18 @@
 
 .miracle__image-woman{
     max-width: 400px;
-    min-width: 170px;
-    min-height: 350px;
-    scale: 0.83;
-    position: relative; 
-    z-index: 6; 
-    margin-top: -60px;
-    margin-left: -10px;
+    min-width: 131px;
+    min-height: 281px;
+    position: relative;
+    z-index: 6;
+    top: -25px;
+    width: 100%;
+    margin-right: 15px;
 }
 
 .photo_info{
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     margin-top: -10px;
     margin-left: -17px;
@@ -55,8 +55,7 @@
     font-weight: var(--block-title-size);
     white-space: normal;
     word-wrap: break-word;
-    font-size: 2em;
-    width: 100%;    
+    font-size: 2em; 
 }
 
 .miracle__subtitle em{
@@ -67,13 +66,11 @@
     color: var(--white__color);
     font-family: "Bacasime Antique", serif;
     font-weight: var(--hero-title-size);
-    width: 100%;
     font-size: var(--block-title-size-tablet);
-    margin-top: 13px;
-    margin-left: -15px;
-    margin-bottom: 52px;
     position: relative;
     z-index: 10;
+    top: -40px;
+    left: -15px;
 }
 
 .miracle__artist,
@@ -94,7 +91,10 @@
 .miracle__artist{
     line-height: 23px;
 }
-
+.miracle__artist-block{
+    position: relative;
+    top: -15px;
+}
 
 @media (min-width:768px) {
     .miracle__image-woman{

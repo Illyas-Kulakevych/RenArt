@@ -158,6 +158,8 @@
         font: var(--block-title-size-tablet) "Bacasime Antique", serif;
         scale: 1;
         width: 320px;
+        position: relative;
+        left: 61px;
     }
     .eternal__sub-section{
         display: block;
@@ -172,6 +174,9 @@
     }
     .eternal__image {
         order: 2;
+        position: relative;
+        top: -34px;
+        left: -21px;
       }
       
     .eternal__vision {
@@ -188,6 +193,7 @@
         width: 253px;
     }
 }
+
 
 
 
