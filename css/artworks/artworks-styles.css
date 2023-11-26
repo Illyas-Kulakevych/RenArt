@@ -120,7 +120,7 @@
   width: 50%;
 }
 .artworks__img-eagle {
-  width: 70%;
+  width: 60%;
   max-width: 325px;
   max-height: 328px;
   position: relative;
@@ -261,8 +261,8 @@
     margin-top: 50%;
   }
   .artworks__img-eagle {
-    width: 135px;
-    margin-top: 0px;
+    width: 60%;
+    margin-top: 25px;
     position: relative;
     left: 70%;
     bottom: 42%;
@@ -407,12 +407,13 @@
     margin-left: 50%;
   }
   .artworks__img-eagle {
-    width: 70%;
-    margin-top: 0px;
+    width: 60%;
+    margin-top: 25px;
     max-width: 225px;
     position: relative;
     left: 70%;
     bottom: 60%;
+
 
   }
   .caption__eagle {
