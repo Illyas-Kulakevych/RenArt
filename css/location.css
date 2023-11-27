@@ -67,7 +67,6 @@
     }
     .location__booking__field {
         top: -50%;
-        min-width: 272px;
         height: 472.4px;
         margin-left: 24px;
         margin-right: 24px;
@@ -104,12 +103,8 @@
     .location__main {
         height: 1175.44px;
     }
-    /* .location__booking__field, .location__map {
-        position: relative;
-    } */
     .location__booking__field {
         top: -50%;
-        min-width: 272px;
         height: 472.4px;
         margin-left: 24px;
         margin-right: 24px;
@@ -157,15 +152,11 @@
     .location__main {
         height: 1195.84px;
     }
-    /* .location__booking__field, .location__map {
-        position: relative;
-    } */
     .location__booking__field {
         top: -50%;
-        min-width: 272px;
         height: 482.8px;
-        margin-left: 24px;
-        margin-right: 24px;
+        margin-left: 32%;
+        margin-right: 32%;
     }
   }
 
@@ -209,16 +200,13 @@
     .location__main {
         height: 760px;
     }
-    /* .location__booking__field, .location__map {
-        position: relative;
-    } */
     .location__booking__field {
         top:-629.6px;
-        /* float: right; */
         width: 370px;
         height: 499.2px;
         margin-left: 40px;
         margin-right: 40px;
+        margin-left: auto;
     }
   }
 
@@ -285,9 +273,7 @@
 
 .booking__field__title {
     text-align: center;
-    color: var(--title__color__higlight);
-    font-size: 1.2rem;
-    font-family: 'Bacasime Antique', serif
+    padding-top: 10px;
 }
 
 .booking__field {
@@ -319,5 +305,24 @@
 }
 
 .location__booking__field {
+    min-width: 272px;
     background-color: var(--background__color__location);
 }
+
+input[type="text"] {
+    border: 0px solid #fbf6e9;
+    background: #fbf6e9 !important;
+    outline: none;
+    width: 71.32%;
+    /* min-width: 194px; */
+    height: 16,8px;
+    color: #cccccc;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    padding: 14px 20px 14px 20px;
+    margin-top: 12px;
+    /* margin-left: 32%;
+    margin-right: 32%; */
+    margin-left: auto;
+    margin-right: auto;
+ }
