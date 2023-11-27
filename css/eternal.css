@@ -120,6 +120,8 @@
 
 .eternal__image-man{
     min-height: 121px;
+    max-width: 437px;
+    margin: auto;
 }
 
 @media (max-width:767px){
