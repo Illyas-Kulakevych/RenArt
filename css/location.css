@@ -326,3 +326,37 @@ input[type="text"] {
     margin-left: auto;
     margin-right: auto;
  }
+
+input[type="date"] {
+    border: 0px solid #fbf6e9;
+    background: #fbf6e9 !important;
+    outline: none;
+    width: 71.32%;
+    height: 16,8px;
+    color: #cccccc;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    padding: 14px 20px 14px 20px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.booking__button {
+    min-width: 272px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    padding: 14px 20px 14px 20px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.booking__button:hover {
+    background-color:#002ead;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+}
