@@ -27,7 +27,7 @@ function renderCardList(cardList) {
     const cardListContainer = document.querySelector('.news-image')
     for (const card of cardList) {
         cardListHtml += ` <div class="news-image-beaty">
-        <div class="image-beaty">
+        <div class="image-beaty image-beaty__midle">
             <img src="${card.image}" alt="Timeless Beaty">
         </div>
         <div class="beaty-text">
