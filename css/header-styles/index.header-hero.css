@@ -2,11 +2,6 @@
     padding: 20px;
 }
 
-
-
-
-
-
 .hero__italic-subtitle {
     color: var(--descriptive__color);
     font-family: 'Work Sans', sans-serif;
@@ -205,7 +200,7 @@
 }
 
 
-@media (min-width:768px) {
+@media (min-width:780px) {
     .hero__title {
         font-size: 76px;
     }
@@ -236,10 +231,7 @@
         font-size: 52px;
         width: 150px;
     }
-    .angels__bottom-text {
-        position: relative;
-
-    }
+   
     .angels__title .angels__subtitle{
         position: absolute;
         left: 10px;
@@ -258,7 +250,7 @@
     .angels__bottom-text {
         position: relative;  
         top: 125px; 
-        right: 50px; 
+        right: 25px; 
         /* font-size: 17px; */
     }
     .angels__bottom-text h3 {
@@ -266,14 +258,111 @@
     }
     .right {
         position: absolute;
-        bottom: 260px;
-        right: 135px;
+        bottom: 160px;
+        right: 70px;
         width: 200px;
     }
+    /* change POSITION */
     .left {
         position: absolute;
-        bottom: 200px;
-        right: 180px;
+        bottom: 47px;
+        right: 100px;
         font-size: 28px;
+    }
+    .hero__exhibitions {
+        position: relative;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-container {
+        display: flex;
+    }
+    .hero__title {
+        position: relative;
+        z-index: 2;
+    }
+    .hero__text {
+        width: 250px;
+        margin-top: 30px;
+    }
+    .button__learn-more {
+        margin-top: 30px;
+    }
+    .angels__border-for-picture {
+        width: 330px;
+        position: absolute;
+        top: 195px;
+        left: 330px;
+        z-index: 1;
+    }
+    .angels__video-in-circle {
+        bottom: -140px;
+        left: 260px;
+        z-index: 10;
+    }
+    .angels__video-circle-text {
+        bottom: -125px;
+        left: 390px;
+    }
+    .angels__thinking-woman {
+        width: 235px;
+        bottom: 50px;
+    }
+    .angels__star-behind-woman {
+        width: 150px;
+        top: -135px;
+        right: 185px;
+    }
+    .angels__year {
+        top: 150px;
+    }
+    .angels__bottom-text {
+        position: relative;
+        top: -88px;
+    }
+    .left,
+    .right {
+        position: static;
+    }
+    .hero__exhibitions {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 185px;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+}
+@media (min-width: 1200px) {
+    .angels__border-for-picture {
+        width: 383px;
+    }
+    .angels__video-in-circle {
+        width: 383px;
+        bottom: -205px;
+    }
+    .angels__video-circle-text {
+        bottom: -184px;
+    }
+    .angels__thinking-woman {
+        width: 300px;
+        bottom: 40px;
+        right: 25px;
+    }
+    .angels__star-behind-woman {
+        top: -100px;
+        left: -145px;
+    }
+    .angels__year {
+        top: 240px;
+        font-size: 80px;
+        left: -125px;
+    }
+    .angels__bottom-text {
+        top: -70px;
+        right: 50px;
+    }
+    .hero__exhibitions {
+        margin-top: 250px;
     }
 }
