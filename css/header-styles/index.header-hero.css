@@ -200,12 +200,12 @@
 }
 
 
-@media (min-width:780px) {
+@media (min-width:790px) {
     .hero__title {
         font-size: 76px;
     }
     .hero__text {
-        max-width: 432px;
+        max-width: 420px;
     }
     .hero-container {
         position: relative;
@@ -214,7 +214,7 @@
     .hero__woman-wrapper {
         position: absolute;
         top: 80px;
-        right: -35px;
+        right: -15px;
 
     }
     .angels__thinking-woman {
@@ -251,7 +251,6 @@
         position: relative;  
         top: 125px; 
         right: 25px; 
-        /* font-size: 17px; */
     }
     .angels__bottom-text h3 {
         font-size: 28px;
@@ -259,14 +258,14 @@
     .right {
         position: absolute;
         bottom: 160px;
-        right: 70px;
+        right: 90px;
         width: 200px;
     }
-    /* change POSITION */
+   
     .left {
         position: absolute;
-        bottom: 47px;
-        right: 100px;
+        bottom: 70px;
+        right: 138px;
         font-size: 28px;
     }
     .hero__exhibitions {
@@ -308,18 +307,23 @@
     .angels__thinking-woman {
         width: 235px;
         bottom: 50px;
+        right: 13px;
     }
     .angels__star-behind-woman {
         width: 150px;
-        top: -135px;
+        top: -120px;
         right: 185px;
     }
     .angels__year {
         top: 150px;
+        left: -75px;
     }
     .angels__bottom-text {
         position: relative;
         top: -88px;
+    }
+    .angels__subtitle {
+        width: 235px;
     }
     .left,
     .right {
@@ -344,23 +348,30 @@
     .angels__video-circle-text {
         bottom: -184px;
     }
+    .hero__title-wrapper .hero__text {
+        width: 275px;
+    }
     .angels__thinking-woman {
         width: 300px;
         bottom: 40px;
-        right: 25px;
+        right: 20px;
     }
     .angels__star-behind-woman {
         top: -100px;
-        left: -145px;
+        left: -150px;
     }
     .angels__year {
         top: 240px;
         font-size: 80px;
-        left: -125px;
+        left: -120px;
     }
     .angels__bottom-text {
         top: -70px;
-        right: 50px;
+        right: 40px;
+        
+    }
+    .hero__text {
+        width: 300px;
     }
     .hero__exhibitions {
         margin-top: 250px;
