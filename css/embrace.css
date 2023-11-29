@@ -130,8 +130,24 @@
     font-family: 'Work Sans', sans-serif;
     color: var(--descriptive__color) ;
     font-style: italic;
+    width: 35%;
 }
 
+.gateway__paragraph {
+    font-size: var(--heading-size);
+    font-family: 'Bacasime Antique', serif;
+    color: var(--title__color);
+    display: block;
+    margin: 20px 0;
+    width: 35%;
+}
+
+.gateway__texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -166,13 +182,7 @@
 
 
 
-.gateway__paragraph {
-    font-size: var(--heading-size);
-    font-family: 'Bacasime Antique', serif;
-    color: var(--title__color);
-    display: block;
-    margin: 20px 0;
-}
+
 
 .eternal__description-block{
     display: flex;
