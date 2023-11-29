@@ -1,4 +1,4 @@
 document.addEventListener("partialsLoaded", () => {
     import("./header.js");
-    import("./accordion.js");
+    import ("./main-news.js");
   });

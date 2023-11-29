@@ -73,7 +73,21 @@
         max-height: 33px !important;
         margin-left: 0px !important;
     }
-}
+    .artgallery__clock{
+        display: block;
+        z-index: 1;
+        font-family: 'Bacasime Antique', serif;
+        font-weight: 400;
+        font-style: italic;
+        color: var(--title__color__higlight) ;
+        font-size: 12px;
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 1px solid var(--title__color__higlight);
+    }
+    .artgallery__clock p{
+        font-size: 45px;
+    }
 @media (min-width: 768px){
     
     .ask__title{
