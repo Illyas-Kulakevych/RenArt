@@ -1,13 +1,20 @@
 document.addEventListener('DOMContentLoaded', async function () {
 
-  const response = await fetch('api/events.json');
-  const events = await response.json();
+  setTimeout(async function(){
+    const response = await fetch('api/events.json');
+    const events = await response.json();
 
+    displayEvents(events);
+  }, 100);
+
+  
   function displayEvents(events) {
+  
+    const eventsContainer = document.querySelector(".events__cards");
     let eventsHtml = '';
-    const eventsContainer = document.querySelector('.events__cards');
+    
    
-    for( const event of events) {
+    for (const event of events) {
       eventsHtml += `
       <div class="event__card">
         <div class="event__card-photo">
@@ -24,10 +31,14 @@ document.addEventListener('DOMContentLoaded', async function () {
       </div>
       `;
     }
+    if (eventsContainer) {
       eventsContainer.innerHTML = eventsHtml;
+    } else {
+      console.error('Елемент з класом .events__cards не знайдений');
+    }
 
   };
 
-  displayEvents(events);
+ 
 });
 
