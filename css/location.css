@@ -71,6 +71,11 @@
         margin-left: 24px;
         margin-right: 24px;
     }
+    .booking__field-section {
+        height: 352px;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
 }
 
 @media screen and (min-width: 337px) and (max-width: 768px) {
@@ -108,6 +113,11 @@
         height: 472.4px;
         margin-left: 24px;
         margin-right: 24px;
+    }
+    .booking__field-section {
+        height: 352px;
+        margin-left: 39px;
+        margin-right: 39px;
     }
   }
 
@@ -158,6 +168,11 @@
         margin-left: 32%;
         margin-right: 32%;
     }
+    .booking__field-section {
+        height: 352px;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
   }
 
 @media screen and (min-width: 991px) {
@@ -207,6 +222,12 @@
         margin-left: 40px;
         margin-right: 40px;
         margin-left: auto;
+    }
+    .booking__field-section {
+        width: 250px;
+        height: 352px;
+        margin-left: auto;
+        margin-right: auto;
     }
   }
 
@@ -313,7 +334,7 @@ input[type="text"] {
     border: 0px solid #fbf6e9;
     background: #fbf6e9 !important;
     outline: none;
-    width: 71.32%;
+    width: 100%;
     /* min-width: 194px; */
     height: 16,8px;
     color: #cccccc;
@@ -331,7 +352,7 @@ input[type="date"] {
     border: 0px solid #fbf6e9;
     background: #fbf6e9 !important;
     outline: none;
-    width: 71.32%;
+    width: 100%;
     height: 16,8px;
     color: #cccccc;
     font-size: 14px;
@@ -342,17 +363,39 @@ input[type="date"] {
     margin-right: auto;
   }
 
+.booking__field-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.location__button {
+    margin-top: auto;
+}
+
 .booking__button {
-    min-width: 272px;
-    background-color: #04AA6D;
-    border: none;
-    color: white;
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: white; 
     font-size: 14px;
     font-family: "Work Sans", sans-serif;
-    padding: 14px 20px 14px 20px;
-    margin-top: 12px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: blue; 
+    border: none; 
+    cursor: pointer; 
+}
+
+input[type="submit"] {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: white; 
+    background-color: blue; 
+    border: none; 
+    cursor: pointer; 
 }
 
 .booking__button:hover {
