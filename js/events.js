@@ -1,13 +1,13 @@
 const eventsContainer = document.querySelector('.events__cards');
 
 function displayEvents(array) {
-    eventsContainer.innerHTML = "";
+  eventsContainer.innerHTML = "";
   
-    array.forEach(event => {
-      const eventDiv = document.createElement('div');
-      eventDiv.className = 'event__card';
+  array.forEach(event => {
+    const eventDiv = document.createElement('div');
+    eventDiv.className = 'event__card';
   
-      eventDiv.innerHTML = `
+    eventDiv.innerHTML = `
         <div class="event__card-photo">
           <img src="img/img-events/${event.image}" alt="${event.title}">
         </div>
@@ -23,12 +23,11 @@ function displayEvents(array) {
   
       eventsContainer.appendChild(eventDiv);
     });
-  }
+}
   
-  document.addEventListener('DOMContentLoaded', function () {
-  
-    fetch('../api/events.json')
-      .then(response => {
+document.addEventListener('DOMContentLoaded', function () {
+  fetch('./api/events.json')
+    .then(response => {
         if (!response.ok) {
           throw new Error('Помилка отримання даних');
         }
@@ -40,7 +39,4 @@ function displayEvents(array) {
       .catch(error => {
         console.error('Помилка:', error.message);
       });
-  });
-
-
-  displayEvents(eventData);
+});
