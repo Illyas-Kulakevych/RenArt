@@ -326,9 +326,13 @@
     justify-content: center;
 }
 
-.location__booking__field, .location__main {
+.location__booking__field, #map {
     position: relative;
 }
+/* 
+.location__booking__field, .location__main {
+    position: relative;
+} */
 
 .location__booking__field {
     min-width: 272px;
