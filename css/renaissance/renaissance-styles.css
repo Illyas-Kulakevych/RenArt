@@ -12,7 +12,7 @@
     z-index: 1;
 }
 
-.renaissance {
+.unlock-renaissance{
     padding: 0px 20px;
 
 }
@@ -93,4 +93,10 @@
     font-family: "Antic Didone", serif;
     font-weight: 400px;
     font-size: 12px;
+}
+.line-with-star {
+    display: none;
+}
+.beauty-renaissance {
+    display: none;
 }
