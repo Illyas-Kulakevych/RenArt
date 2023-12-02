@@ -311,15 +311,11 @@
     text-align: center;
 }
 
-/* .location__map {
+.location__map {
     width: 100%;
     height: 100%;
-} */
-
-#map {
-    width: 100%;
-    height: 100%;
-  }
+    filter: grayscale(0%) invert(100%) sepia(100%);
+}
 
 .location__img {
     display: flex;
