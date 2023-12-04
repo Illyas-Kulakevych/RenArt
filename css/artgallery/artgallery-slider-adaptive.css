@@ -56,6 +56,9 @@
     .historical__discription{
         margin-bottom: 15px;
     }
+    .historical__container{
+        margin-bottom: 81px;
+    }
 }
 @media (max-width: 500px){
     .btn-prev{
