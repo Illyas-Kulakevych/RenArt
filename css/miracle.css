@@ -2,12 +2,17 @@
     padding: 20px;
 }
 
+.miracle{
+    margin-top: 100px;
+}
 .miracle__block{
     width: 100%;
     min-height: 120px;
     position: relative; 
     z-index: 10;
-    margin-left: 10px;
+    left: 10px;
+    margin: auto;
+    max-width: 500px;
 }
 
 .miracle__title{
@@ -26,14 +31,14 @@
 }
 
 .miracle__image-woman{
-    max-width: 400px;
+    max-width: 300px;
     min-width: 131px;
     min-height: 281px;
     position: relative;
     z-index: 6;
     top: -25px;
-    width: 100%;
     margin-right: 15px;
+    margin-left: auto;
 }
 
 .photo_info{
@@ -104,6 +109,8 @@
     flex-direction: column;
     padding: 0 10px 0 4px;
     line-height: 1.4;
+    max-width: 600px;
+    margin: auto;
 }
 .miracle__description-paragraph{
     font-weight: bold;
@@ -116,15 +123,19 @@
     width: 18%;
     position: relative;
     top: 35px;
-    left: 30px;
+    left: -110px;
     max-width: 66px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .miracle__images-split{
     position: relative;
     top: -300px;
     margin-bottom: -300px;
-
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .miracle__image-child{
@@ -145,7 +156,9 @@
         width: 260px;
     }
     .miracle__block{
-        min-height: 83px
+        min-height: 83px;
+        max-width: 640px;
+
     }
     .miracle__title{
         font-size: var(--hero-title-size-tablet);
@@ -158,7 +171,7 @@
         min-width: 360px;
     }
     .photo__year{
-        top: 100px;
+        top: 120px;
         left: -130px;
     }
     .miracle__artist-block{
@@ -201,7 +214,7 @@
         margin-bottom: -720px;
         margin-right: auto;
         margin-left: auto;
-        width: 700px;
+        min-width: 700px;
     }
     .miracle__image-star{
         top: -210px;
@@ -214,5 +227,69 @@
     }
     .miracle__image-child{
         left: 458px;
+    }
+}
+
+@media (min-width:991px){
+    .miracle__block{
+        max-width: 800px;
+        left: 65px;
+        min-height: 73px;
+    }
+    .miracle__title{
+        font-size: 92px;
+        scale: .77;
+    }
+    .miracle__subtitle{
+        font-size: 46px;
+        width: 500px;
+    }
+    .miracle__photo-subtitle{
+        position: relative;
+        left: -100px;
+        margin: auto;
+    }
+    .miracle__image-woman{
+        max-width: 243px;
+        top: -90px;
+    }
+    .miracle__description{
+        width: 300px;
+        font-size: 13px;
+        left: -10px;
+        top: -400px;
+        line-height: 1.25;
+    }
+    .miracle__description-paragraph{
+        width: 300px;
+    }
+    .photo__year{
+        font-size: 92px;
+        scale: .78;
+        top: 145px;
+        left: -175px;
+    }
+    .miracle__artist-block{
+        left: -300px;
+    }
+    .miracle__images-split{
+        top: -700px;
+    }
+    .miracle__image-child{
+        scale: 1;
+        max-width: 200px;
+        margin: 0 auto;
+        left: 320px;
+        top: 40px;
+        z-index: 1;
+    }
+    .miracle__image-cows{
+        max-width: 512px;
+        margin: 0 auto;
+        left: 200px;    
+    }
+    .miracle__image-star{
+        top: -180px;
+        left: -420px;    
     }
 }
