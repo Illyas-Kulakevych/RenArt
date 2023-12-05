@@ -331,7 +331,7 @@ img {
 .location__map {
     width: 100%;
     height: 100%;
-    filter: grayscale(0%) invert(100%) sepia(100%);
+    filter: grayscale(100%) invert(100%) invert(11%) sepia(17%) saturate(14%) hue-rotate(3deg) brightness(98%) contrast(95%);
 }
 
 .location__img {
@@ -342,10 +342,6 @@ img {
 .location__booking__field, #map {
     position: relative;
 }
-/* 
-.location__booking__field, .location__main {
-    position: relative;
-} */
 
 .location__booking__field {
     min-width: 272px;
@@ -370,18 +366,39 @@ input[type="text"] {
     margin-right: auto;
  }
 
-/* input[type="date"]:before {
-    color: lightgrey;
-    content: attr(placeholder) !important;
-    margin-right: 0.5em;
-    padding: 11px;
-  } */
+/* .data__button {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    background: #34291C;
+    padding: 14px 20px 14px 20px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none; 
+    cursor: pointer;  
+}
 
-/* input[type="date"]:focus:before,
-input[type="date"]:valid:before {
-     content: "" !important;
-   } */
+.data__text {
+    color: #847b6e;
+    font-size: 14px;
+    font-family: "Work Sans", sans-serif;
+    float: left;
+} */
 
+/* .location_data-img {
+    width: 24px;
+    filter: invert(50%) sepia(12%) saturate(396%) hue-rotate(356deg) brightness(95%) contrast(88%);
+    float: right;
+} */
+
+input[type="date"]:not(.has-value):before {
+    content: attr(placeholder);
+    width: 100%;
+  }
+  
 input[type="date"] {
     border: 0px solid #34291C;
     background: #34291C !important;
@@ -398,15 +415,20 @@ input[type="date"] {
     cursor: pointer; 
   }
 
+::-webkit-calendar-picker-indicator {
+    color: transparent;
+    opacity: 1;
+    background: url(../img/date.svg) no-repeat center;
+    transform: scale(1.5);
+    filter: invert(50%) sepia(12%) saturate(396%) hue-rotate(356deg) brightness(95%) contrast(88%);
+    background-size: contain;
+  }
+
 .booking__field-section {
     display: flex;
     flex-direction: column;
     position: relative;
 }
-
-/* .location_data-img {
-    width: 24px;
-} */
 
 .booking__button {
     display: block; 
@@ -415,25 +437,12 @@ input[type="date"] {
     font-size: 16px; 
     font-weight: bold; 
     color: white; 
-    font-size: 14px;
     font-family: "Work Sans", sans-serif;
     background-color: #eab156;
     border: none; 
     cursor: pointer;  
     position: absolute;
     bottom: 0; 
-}
-
-input[type="submit"] {
-    display: block; 
-    width: 100%; 
-    padding: 10px; 
-    font-size: 16px; 
-    font-weight: bold; 
-    color: white; 
-    background-color: blue; 
-    border: none; 
-    cursor: pointer; 
 }
 
 .booking__button:hover {
