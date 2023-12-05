@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.permanent-exhibition-container{
+    margin: auto;
+    max-width: 1200px;
+    padding: 0px 20px;
+    display: grid;
+}
+.permanent-welcome-title{
+    font-size: 51px;
+    color: var(--title__color__higlight);
+    font-weight: 400;
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+}
+.permanent-welcome-darktitle{
+    color: var(--title__color);
+    font-style: italic;
+}
+.eternal__discription{
+    font-style: italic;
+    font-size: 24px;
+    color: var(--title__color__higlight);
+    font-family: "Bacasime Antique", serif;
+}
+.conf__ledy{
+    max-width: 100%;
+    height: auto;
+}
+.author__name{
+    font-size: 14px;
+    color: var(--descriptive__color);
+    font-style: italic;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    justify-self: end;
+}
+.beyond__desription{
+    font-size: 17px;
+    font-family: "Work Sans", sans-serif;
+    color: var(--descriptive__color__hilight);
+    font-weight: 400;
+    text-align: center;
+}

@@ -1,0 +1,7 @@
+@import url(global.css);
+@import url(header-styles/header-nav.css);
+@import url(permanent-exhibition/permanent-exhibition-title.css);
+@import url(permanent-exhibition/permanent-exhibition-title-adaptive.css);
+@import url(permanent-exhibition/permanent-exhibition.css);
+@import url(permanent-exhibition/permanent-exhibition-adaptive.css);
+@import url(footer.css);

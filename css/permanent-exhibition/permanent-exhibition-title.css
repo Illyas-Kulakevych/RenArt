@@ -1,0 +1,36 @@
+.permanent-exhibition{
+    padding: 60px 24px 90px 24px;
+    background-color: var(--background__color__about-renart-gallery);
+}
+.permanent-exhibition__title {
+    color: var(--title__color__higlight);
+    font-family: 'Bacasime Antique', serif;
+    font-size: 62px;
+    font-weight: 400;
+    text-align: center;
+}
+.permanent-exhibition__image-container {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.permanent-exhibition__image {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.permanent-exhibition__path {
+    color: var(--white__color);
+    font-family: 'Antic Didone', serif;
+    font-size: var(--small-size);
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 2px;
+}
+.permanent-exhibition__darktitle{
+    font-style: italic;
+    color: var(--title__color);
+}

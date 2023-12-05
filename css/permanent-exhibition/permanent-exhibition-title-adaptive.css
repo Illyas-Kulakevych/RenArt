@@ -1,0 +1,10 @@
+@media (max-width: 991px){
+    .permanent-exhibition__title{
+        font-size: 51px;
+    }
+}
+@media (max-width: 768px){
+    .permanent-exhibition__title{
+        font-size: 40px;
+    }
+}
