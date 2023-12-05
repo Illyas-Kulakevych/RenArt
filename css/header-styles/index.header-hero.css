@@ -1,5 +1,7 @@
 .hero {
     padding: 20px;
+
+
 }
 
 .hero__italic-subtitle {
@@ -355,6 +357,7 @@
         width: 300px;
         bottom: 40px;
         right: 20px;
+
     }
     .angels__star-behind-woman {
         top: -100px;

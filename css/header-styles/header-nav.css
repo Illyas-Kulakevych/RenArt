@@ -1,6 +1,7 @@
 .header {
     position: relative;
     z-index: 1;
+    
 }
 
 .nav {
@@ -11,10 +12,12 @@
     gap: 6px;
     position: relative;
     z-index: 22;
+
 }
 
 .header__logo {
     width: 125px;
+
 }
 
 .header__menu-list a {
@@ -128,13 +131,16 @@
     padding: 40px 0;
     gap: 30px;
     z-index: 1;
+
 }
 
 .header.responsive .header__background,
 .header.responsive .header__menu {
     background: var(--background__color__home);
 }
-
+.responsive {
+    background: var(--background__color__home);
+}
 .header.responsive .header__navicon {
     background: transparent;
 }
