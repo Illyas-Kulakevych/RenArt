@@ -114,11 +114,9 @@
 .embrace__illustration--wrapper {
     display: flex;
     justify-content: center;
+    width: 486px;
 }
 
-.embrace__illustration {
-    width: 450px;
-}
 
 .embrace__star{ 
     width:300px
@@ -130,7 +128,6 @@
     font-family: 'Work Sans', sans-serif;
     color: var(--descriptive__color) ;
     font-style: italic;
-    width: 35%;
 }
 
 .gateway__paragraph {
@@ -139,16 +136,14 @@
     color: var(--title__color);
     display: block;
     margin: 20px 0;
-    width: 35%;
 }
 
 .gateway__texts {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 }
-
 
 
 .embrace__time-ignites {
@@ -175,9 +170,9 @@
 
 .embrace__passion--wrapper {
     text-align:justify;
-    width: 80%;
     align-self: left;
     margin-top: 100px;
+    width:80%;
 }
 
 
@@ -196,15 +191,29 @@
     font-size: var(--text-size);
 }
 
+@media(max-width: 1110px) {
+    .embrace__illustration--wrapper {
+        width: 400px;
+    }
+   
+}
 
 @media(max-width: 992px) {
-    .embrace__container {
-        flex-direction: column;
-        justify-content: space-around;
+  
+
+    .embrace__illustration--wrapper {
+        width: 100%;
     }
 
-    .embrace__welcome {
+    .gateway__texts {
         width: 100%;
+        gap: 10%;
+    }
+   
+
+    .embrace__welcome {
+        width: 30%;
+        padding-right: 50px;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -216,8 +225,7 @@
     }
 
     .embrace__renaissance {
-        margin-top: 30px;
-        width: 100%;
+        width: 70%;
     }
 
     .embrace__stroke {
@@ -246,5 +254,24 @@
 
 
 @media(max-width: 768px) {
+    .embrace__container {
+        flex-direction: column;
+    }
 
+    .embrace__welcome, .embrace__renaissance, .embrace__passion--wrapper {
+        width: 100%;
+    }
+
+    .embrace__renaissance {
+        margin-top: 30px;
+    }
+
+    .embrace__illustration--wrapper {
+        width: 100%;
+    }
+
+    .gateway__texts {
+        width: 100%;
+        gap: 10%;
+    }
 }
