@@ -3,14 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
-.permanent-exhibition-container{
+.permanent-exhibition-page-container{
     margin: auto;
     max-width: 1200px;
     padding: 0px 20px;
+}
+.permanent-exhibition-container{
     display: grid;
+    margin-bottom: 50px;
 }
 .permanent-welcome-title{
-    font-size: 51px;
+    font-size: 45px;
     color: var(--title__color__higlight);
     font-weight: 400;
     text-align: center;
@@ -44,4 +47,38 @@
     color: var(--descriptive__color__hilight);
     font-weight: 400;
     text-align: center;
+    margin-bottom: 30px;
+}
+.permanent-embrace__title{
+    font-size: 32px;
+    color: var(--title__color__higlight);
+    font-weight: 400;
+    text-align: center;
+    font-family: "Bacasime Antique", serif;
+}
+.permanent-embrace__darktitle{
+    color: var(--title__color);
+    font-style: italic;
+}
+.permanent-discription-column{
+    font-family: "Work Sans", sans-serif;
+    font-size: 17px;
+    color: var(--descriptive__color__hilight);
+    font-weight: 400;
+    transform: scale(0.9);
+    display: grid;
+    justify-content: center;
+    text-align: justify;  
+}
+.permanent-firstdiscription-column{
+    color: var(--descriptive__color__most-hilight);
+    font-weight: 700;
+    margin-bottom: 45px;
+
+}
+.permanent-seconddiscription-column{
+    margin-bottom: 45px;
+}
+.permanent-thirddiscription-column{
+    margin-bottom: 45px;
 }
