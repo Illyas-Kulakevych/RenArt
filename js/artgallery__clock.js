@@ -1,4 +1,4 @@
-let dest = new Date("2023-12-08 01:00:00").getTime();
+let dest = new Date("2023-12-08 02:30:00").getTime();
 
 function updateTimer() {
   let now = new Date().getTime();

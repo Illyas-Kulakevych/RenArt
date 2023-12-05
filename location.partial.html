@@ -44,23 +44,30 @@
                 <div class="booking__field__title">
                     <h3 class="location__titles"><em>Tickets</em></h3>
                 </div>
-                <form action="#">
-                    <div class="booking__field">
-                        <input type="text" name="name" placeholder="Your Name*" required>
-                    </div>
-                    <div class="booking__field">
-                        <input type="text" name="phone" placeholder="Your Phone*" required>
-                    </div>
-                    <div class="booking__field">
-                        <input type="text" name="email" placeholder="Email*" required>
-                    </div>
-                    <div class="booking__field__data">
-                        <input type="date" name="Date" placeholder="Choose data" id="davaToday">
-                    </div>
-                    <div class="booking__button">
-                        <button type="submit">Request</button>
-                    </div>
-                </form>
+                <div class="booking__field-section">
+                    <form action="https://formspree.io/f/xzbllwnl" method="post">
+                        <div class="booking__field">
+                            <input type="text" name="name" placeholder="Your Name*" required>
+                        </div>
+                        <div class="booking__field">
+                            <input type="text" name="phone" placeholder="Your Phone*" required>
+                        </div>
+                        <div class="booking__field">
+                            <input type="text" name="email" placeholder="Email*" required>
+                        </div>
+                        <div class="booking__field__data">
+                            <!-- <button class="data__button" type="submit">Request</button>
+                            <img class="location_data-img" src="./img/date.svg" alt="data img"> -->
+                            
+                            <!-- <input type="date" name="Date" placeholder="Choose data" id="dataToday"> -->
+                            <!-- <input type="date" name="Date" placeholder="Choose data" onchange="this.className=(this.value!=''?'has-value':'')"> -->
+                            <input placeholder="Choose data" type="text" onfocus="this.type='date'" onblur="if(this.value==''){this.type='text'}"/>
+                        </div>
+                        <div class="location__button">
+                            <button class="booking__button" type="submit">Request</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </section>   
