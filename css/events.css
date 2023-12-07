@@ -68,6 +68,7 @@
 
 .exhibitions__card-photo img{
 	width: 100%;
+	object-fit: cover;
 	height: auto;
 	transition: transform 0.3s ease-in-out;
 }
