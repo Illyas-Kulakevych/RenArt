@@ -1,9 +1,7 @@
 .exhibitions-header_events_color{
 	background-color: rgb(23, 29, 24);
 }
-.exhibitions-header_events_color.header.responsive .header__background, .header.responsive .header__menu {
-	
-}
+
 .exhibitions-hero{
 	padding: 60px 0 90px;
 	display: flex;
