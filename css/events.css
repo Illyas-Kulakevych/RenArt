@@ -53,12 +53,20 @@
 
 }
 .exhibitions__card-photo{
+	overflow: hidden;
+}
+.exhibitions__card-photo{
 	display: block;
+}
+
+.exhibitions__card:hover img{
+	transform: scale(1.05);
 }
 
 .exhibitions__card-photo img{
 	width: 100%;
 	height: auto;
+	transition: transform 0.3s ease-in-out;
 }
 .exhibitions__card-available{
     color: var(--descriptive__color);

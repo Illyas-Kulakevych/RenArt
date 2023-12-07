@@ -34,6 +34,15 @@ document.addEventListener("partialsLoaded", async () => {
 
   };
   displayEvents(events);
+
+  function scrollToElement(elementId) {
+    const element = document.getElementById(elementId);
+
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+  scrollToElement('eventsPart');
  
 });
 
