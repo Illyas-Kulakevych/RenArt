@@ -44,6 +44,10 @@
     width:20px;
 }
 
+.welcome__vertical--second {
+    display: none;
+}
+
 .welcome__star {
     width: 50px;
 }
@@ -115,6 +119,23 @@
     display: flex;
     justify-content: center;
     width: 486px;
+    height: 350px;
+
+    position: relative;
+}
+
+.embrace__illustration--circle {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    object-fit: fill;
+}
+
+.embrace__illustration {
+    position: absolute;
+    z-index: 9999;
+    width: 80%;
+    top: 10%;
 }
 
 
@@ -171,7 +192,7 @@
 .embrace__passion--wrapper {
     text-align:justify;
     align-self: left;
-    margin-top: 100px;
+    margin-top: 50px;
     width:80%;
 }
 
@@ -199,11 +220,6 @@
 }
 
 @media(max-width: 992px) {
-  
-
-    .embrace__illustration--wrapper {
-        width: 100%;
-    }
 
     .gateway__texts {
         width: 100%;
@@ -217,11 +233,12 @@
         display: flex;
         flex-direction: column;
         justify-content: start;
-        align-items: flex-start;
     }
 
-    .welcome__star, .welcome__vertical{
-        display: none;
+
+    .welcome__vertical--second {
+        display: inline;
+        width: 20px;
     }
 
     .embrace__renaissance {
@@ -257,21 +274,25 @@
     .embrace__container {
         flex-direction: column;
     }
+    .embrace__welcome {
+        align-items: start;
+    }
 
     .embrace__welcome, .embrace__renaissance, .embrace__passion--wrapper {
         width: 100%;
+       
     }
 
     .embrace__renaissance {
         margin-top: 30px;
     }
-
-    .embrace__illustration--wrapper {
-        width: 100%;
-    }
-
+    
     .gateway__texts {
         width: 100%;
         gap: 10%;
+    }
+
+    .welcome__vertical, .welcome__star, .welcome__vertical--second {
+        display: none;
     }
 }

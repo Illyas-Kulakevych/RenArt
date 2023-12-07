@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', async function () {
   setTimeout(async function(){
     const response = await fetch('api/events.json');
     const events = await response.json();
+document.addEventListener("partialsLoaded", async () => {
 
-    displayEvents(events);
-  }, 100);
+  const response = await fetch('api/events.json');
+  const events = await response.json();
 
-  
   function displayEvents(events) {
   
     const eventsContainer = document.querySelector(".events__cards");
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async function () {
           <time class="uppercase" datetime="${event.datetime}">${event.fullDate}</time>
         </div>
         <div class="event__card-title">
-          <h3 class="italic"><a href="#">${event.title}</a></h3>
+          <h3 class="italic"><a href="permanent-exhibition.html">${event.title}</a></h3>
           <p>${event.description}</p>
         </div>
       </div>
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
   };
-
+  displayEvents(events);
  
 });
 

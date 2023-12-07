@@ -1,13 +1,7 @@
-document.addEventListener('DOMContentLoaded', async function () {
-
-    setTimeout(async function(){
-      const response = await fetch('api/exhibitions.json');
-      const exhibitions = await response.json();
+document.addEventListener("partialsLoaded", async () => {
+    const response = await fetch('api/exhibitions.json');
+    const exhibitions = await response.json();
   
-      displayExhibitions(exhibitions);
-    }, 100);
-  
-    
     function displayExhibitions(exhibitions) {
     
       const exhibitionsContainer = document.querySelector(".exhibitions__cards");
@@ -29,7 +23,7 @@ document.addEventListener('DOMContentLoaded', async function () {
                 <span class="italic">"${exhibition.artist}"</span>
             </div>
             <div class="btns-group">
-                <a href="#">Read More</a>
+                <a href="permanent-exhibition.html">Read More</a>
             </div>
         </div>
         `;
@@ -42,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   
     };
   
-   
+    displayExhibitions(exhibitions);
   });
   
   
