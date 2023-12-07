@@ -1,13 +1,8 @@
-document.addEventListener('DOMContentLoaded', async function () {
+document.addEventListener("partialsLoaded", async () => {
 
-  setTimeout(async function(){
-    const response = await fetch('api/events.json');
-    const events = await response.json();
+  const response = await fetch('api/events.json');
+  const events = await response.json();
 
-    displayEvents(events);
-  }, 100);
-
-  
   function displayEvents(events) {
   
     const eventsContainer = document.querySelector(".events__cards");
@@ -38,7 +33,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
   };
-
+  displayEvents(events);
  
 });
 

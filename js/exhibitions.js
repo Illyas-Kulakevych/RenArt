@@ -1,13 +1,7 @@
-document.addEventListener('DOMContentLoaded', async function () {
-
-    setTimeout(async function(){
-      const response = await fetch('api/exhibitions.json');
-      const exhibitions = await response.json();
+document.addEventListener("partialsLoaded", async () => {
+    const response = await fetch('api/exhibitions.json');
+    const exhibitions = await response.json();
   
-      displayExhibitions(exhibitions);
-    }, 100);
-  
-    
     function displayExhibitions(exhibitions) {
     
       const exhibitionsContainer = document.querySelector(".exhibitions__cards");
@@ -42,7 +36,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   
     };
   
-   
+    displayExhibitions(exhibitions);
   });
   
   

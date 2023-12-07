@@ -1,3 +1,24 @@
+.exhibitions-header_events_color{
+	background-color: rgb(23, 29, 24);
+}
+.exhibitions-hero{
+	padding: 60px 0 90px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(23, 29, 24);
+}
+.exhibitions-hero__image-container{
+	max-width: 300px;
+	margin-top: 25px;
+}
+.exhibitions-hero h2{
+	font-style: italic;
+    font-weight: 100;
+	color: var(--title__color__higlight);
+	font-size: var(--block-title-size);
+}
 
 .main__events{
     background-color: var(--background__color__exhibition-events);
@@ -171,8 +192,12 @@ time{
 
 /* Medium screens (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
-
-
+	.exhibitions-hero{
+		padding-bottom: 95px;
+	}
+	.exhibitions-hero h2{
+		font-size: var(--block-title-size-tablet);
+	}
 	.exhibitions{
 		padding: 95px 17px 40px;
 
@@ -239,6 +264,12 @@ time{
 /* Large screens (laptops/desktops) */
 
 @media (min-width: 992px) {
+	.exhibitions-hero{
+		padding-bottom: 100px;
+	}
+	.exhibitions-hero h2{
+		font-size: var(--block-title-size-desktop)
+	}
 	.exhibitions{
 		padding: 150px 0 90px;
 		max-width: 1200px;
