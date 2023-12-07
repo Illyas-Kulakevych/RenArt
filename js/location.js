@@ -1,3 +1,6 @@
+document.addEventListener("partialsLoaded", () => {
+    import("./header.js");
+  });
 // function initMap() {
 //     const map = new google.maps.Map(document.getElementById("map"), {
 //         center: { lat: 40.674, lng: -73.945 },

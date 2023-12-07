@@ -1,4 +1,9 @@
+document.addEventListener("partialsLoaded", () => {
+  import("./header.js");
+});
+
 document.addEventListener('DOMContentLoaded', async function () {
+
 
   setTimeout(async function(){
     const response = await fetch('api/events.json');
