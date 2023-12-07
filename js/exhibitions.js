@@ -23,7 +23,7 @@ document.addEventListener("partialsLoaded", async () => {
                 <span class="italic">"${exhibition.artist}"</span>
             </div>
             <div class="btns-group">
-                <a href="#">Read More</a>
+                <a href="permanent-exhibition.html">Read More</a>
             </div>
         </div>
         `;
