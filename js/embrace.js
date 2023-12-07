@@ -8,7 +8,6 @@
   
     
     function displayImages(imgs) {
-        console.log('IMAGES', imgs)
       const illustrationContainer = document.querySelector(".embrace__illustration--wrapper");
       let illustrationsHtml = '';
       
