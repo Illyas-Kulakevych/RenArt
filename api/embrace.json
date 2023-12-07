@@ -1,0 +1,12 @@
+[
+    {
+        "src": "img/index.main__embrace-illustration.webp",
+        "alt": "Illustration",
+        "class": "embrace__illustration"
+    },
+    {
+        "src": "img/circle.svg",
+        "alt": "Circle",
+        "class": "embrace__illustration--circle"
+    }
+]

@@ -1,39 +1,295 @@
-.miracle{
+.container{
     padding: 20px;
 }
 
-.miracle__title,
-.miracle__subtitle{
-    color: var(--title__color__higlight);
-    font-family: "Bacasime Antique", serif;
+.miracle{
+    margin-top: 100px;
 }
-
-.miracle__subtitle-hilight{
-color: var(--title__color);
-}
-
-.miracle__subtitle{
-    font-weight: var(--block-title-size);
+.miracle__block{
+    width: 100%;
     min-height: 120px;
-}
-
-.title__block{
-    min-height: 120px;
-    display: block;
+    position: relative; 
+    z-index: 10;
+    left: 10px;
+    margin: auto;
+    max-width: 500px;
 }
 
 .miracle__title{
+    color: var(--title__color__higlight);
+    font-family: "Bacasime Antique", serif;
     font-weight: var(--hero-title-size);
     font-size: 60px;
+    scale: 0.83;
+    margin-left: -30px;
+    line-height: 60px;
+    width: 100%;
 }
 
 .miracle__photo-subtitle{
     display: flex;
-    flex-direction: row;
 }
 
 .miracle__image-woman{
-    min-width: 118px;
-    min-height: 336px;
-    padding-right: 20px;
+    max-width: 300px;
+    min-width: 131px;
+    min-height: 281px;
+    position: relative;
+    z-index: 6;
+    top: -25px;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+.photo_info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: -10px;
+    margin-left: -17px;
+}
+
+.miracle__subtitle-block{
+    position: relative;
+    z-index: 5;
+}
+
+.miracle__subtitle{
+    color: var(--title__color__higlight);
+    font-family: "Bacasime Antique", serif;
+    font-weight: var(--block-title-size);
+    white-space: normal;
+    word-wrap: break-word;
+    font-size: 2em; 
+}
+
+.miracle__subtitle em{
+    color: var(--title__color);
+}
+
+.photo__year{
+    color: var(--white__color);
+    font-family: "Bacasime Antique", serif;
+    font-weight: var(--hero-title-size);
+    font-size: var(--block-title-size-tablet);
+    position: relative;
+    z-index: 10;
+    top: -30px;
+    left: -15px;
+}
+
+.miracle__artist,
+.miracle__picture{
+    font-family: "Work Sans", serif;
+    color: var(--white__color);
+    opacity: 0.4;
+    font-weight: var(--button-size);
+    margin-left: -5px;
+    scale: 0.7;
+    width: 100%
+}
+
+.miracle__picture{
+    margin-bottom: -5px;
+}
+
+.miracle__artist{
+    line-height: 23px;
+}
+.miracle__artist-block{
+    position: relative;
+    top: -15px;
+}
+
+.miracle__description{
+    font-family: "Work Sans", serif;
+    font-size: 13px;
+    color: var(--semi-transparent-white);
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 0 4px;
+    line-height: 1.4;
+    max-width: 600px;
+    margin: auto;
+}
+.miracle__description-paragraph{
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+
+.miracle__image-star{
+    width: 18%;
+    position: relative;
+    top: 35px;
+    left: -110px;
+    max-width: 66px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.miracle__images-split{
+    position: relative;
+    top: -300px;
+    margin-bottom: -300px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.miracle__image-child{
+    max-width: 304px;
+    scale: .45;
+    position: relative;
+    bottom: -145px;
+    left: 58px;
+}
+
+.miracle__image-cows{
+    max-width: 312px;
+}
+
+
+@media (min-width:768px) {
+    .miracle__image-woman{
+        width: 260px;
+    }
+    .miracle__block{
+        min-height: 83px;
+        max-width: 640px;
+
+    }
+    .miracle__title{
+        font-size: var(--hero-title-size-tablet);
+        text-align: center;
+        margin: 0;
+    }
+    .photo_info{
+        margin-right: auto;
+        margin-left: auto;
+        min-width: 360px;
+    }
+    .photo__year{
+        top: 120px;
+        left: -130px;
+    }
+    .miracle__artist-block{
+        top: -20px;
+        left: -350px;
+    }
+    .miracle__subtitle{
+        font-size: var(--block-title-size-tablet);
+        width: 346px;
+    }
+    .miracle__image-woman{
+        top: -80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .miracle__photo-subtitle{
+        width: 700px;
+        margin: auto;
+    }
+    .miracle__description{
+        width: 389px;
+        text-align: justify;
+        position: relative;
+        top: -435px;
+        left: 160px;
+        font-size: 17px;
+        padding: 0;
+        margin: auto;
+    }
+    .miracle__description-sub-paragraph{
+        width: 389px;
+        line-height: 1.3;
+        width: 389px
+    }
+    .miracle__description-paragraph{
+        width: 362px;
+    }
+    .miracle__images-split{
+        top: -750px;
+        margin-bottom: -720px;
+        margin-right: auto;
+        margin-left: auto;
+        min-width: 700px;
+    }
+    .miracle__image-star{
+        top: -210px;
+        margin: auto;
+        left: -300px;
+    }
+    .miracle__image-cows{
+        position: relative;
+        left: 388px;
+    }
+    .miracle__image-child{
+        left: 458px;
+    }
+}
+
+@media (min-width:991px){
+    .miracle__block{
+        max-width: 800px;
+        left: 65px;
+        min-height: 73px;
+    }
+    .miracle__title{
+        font-size: 92px;
+        scale: .77;
+    }
+    .miracle__subtitle{
+        font-size: 46px;
+        width: 500px;
+    }
+    .miracle__photo-subtitle{
+        position: relative;
+        left: -100px;
+        margin: auto;
+    }
+    .miracle__image-woman{
+        max-width: 243px;
+        top: -90px;
+    }
+    .miracle__description{
+        width: 300px;
+        font-size: 13px;
+        left: -10px;
+        top: -400px;
+        line-height: 1.25;
+    }
+    .miracle__description-paragraph{
+        width: 300px;
+    }
+    .photo__year{
+        font-size: 92px;
+        scale: .78;
+        top: 145px;
+        left: -175px;
+    }
+    .miracle__artist-block{
+        left: -300px;
+    }
+    .miracle__images-split{
+        top: -700px;
+    }
+    .miracle__image-child{
+        scale: 1;
+        max-width: 200px;
+        margin: 0 auto;
+        left: 320px;
+        top: 40px;
+        z-index: 1;
+    }
+    .miracle__image-cows{
+        max-width: 512px;
+        margin: 0 auto;
+        left: 200px;    
+    }
+    .miracle__image-star{
+        top: -180px;
+        left: -420px;    
+    }
 }

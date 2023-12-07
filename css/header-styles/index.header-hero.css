@@ -1,13 +1,8 @@
 .hero {
     padding: 20px;
+
+
 }
-
-.hero-container {
-    /* display: flex; */
-}
-
-
-
 
 .hero__italic-subtitle {
     color: var(--descriptive__color);
@@ -22,7 +17,7 @@
 .hero__title {
     color: var(--title__color__higlight);
     font-family: "Bacasime Antique", serif;
-    font-size: 60px;
+    font-size: 36px;
     font-weight: 400;
     margin-top: 30px;
  
@@ -31,6 +26,7 @@
 .hero__title-beauty {
     color: var(--title__color);
     font-style: italic;
+
     
 }
 
@@ -118,6 +114,8 @@
 .hero__woman-wrapper {
     margin-top: 40px;
     max-width: 280px;
+    position: relative;
+    right: 35px;
 }
 .hero__woman-with-items {
     position: relative;
@@ -144,7 +142,7 @@
     font-weight: 400;
     position: absolute;
     bottom: 40px;
-    right: -80px;
+    right: -82px;
     z-index: 15;
 }
 .angels__bottom-text {
@@ -204,12 +202,12 @@
 }
 
 
-@media (min-width:768px) {
+@media (min-width:790px) {
     .hero__title {
         font-size: 76px;
     }
     .hero__text {
-        max-width: 432px;
+        max-width: 420px;
     }
     .hero-container {
         position: relative;
@@ -217,26 +215,168 @@
     }
     .hero__woman-wrapper {
         position: absolute;
-        top: 60px;
-        right: -70px;
+        top: 80px;
+        right: -15px;
 
+    }
+    .angels__thinking-woman {
+        width: 260px;
     }
     .angels__star-behind-woman {
-        width: 202px;
-        right: 120px;
-        top: 40px;
+        min-width: 202px;
+        right: 195px;
+        top: 175px;
     }
     .angels__year {
-        left: -49px;
+        left: -70px;
         bottom: 135px;
         font-size: 52px;
+        width: 150px;
     }
-    .angels__bottom-text {
-        position: relative;
-
-    }
+   
     .angels__title .angels__subtitle{
         position: absolute;
         left: 10px;
+    }
+    .angels__video-in-circle {
+        max-width: 135px;
+        bottom: 300px;
+        left: 320px;
+        position: absolute;
+    }
+    .angels__video-circle-text {
+        bottom: 345px;
+        left: 450px;
+        position: absolute;
+    }
+    .angels__bottom-text {
+        position: relative;  
+        top: 125px; 
+        right: 25px; 
+    }
+    .angels__bottom-text h3 {
+        font-size: 28px;
+    }
+    .right {
+        position: absolute;
+        bottom: 160px;
+        right: 90px;
+        width: 200px;
+    }
+   
+    .left {
+        position: absolute;
+        bottom: 70px;
+        right: 138px;
+        font-size: 28px;
+    }
+    .hero__exhibitions {
+        position: relative;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero-container {
+        display: flex;
+    }
+    .hero__title {
+        position: relative;
+        z-index: 2;
+    }
+    .hero__text {
+        width: 250px;
+        margin-top: 30px;
+    }
+    .button__learn-more {
+        margin-top: 30px;
+    }
+    .angels__border-for-picture {
+        width: 330px;
+        position: absolute;
+        top: 195px;
+        left: 330px;
+        z-index: 1;
+    }
+    .angels__video-in-circle {
+        bottom: -140px;
+        left: 260px;
+        z-index: 10;
+    }
+    .angels__video-circle-text {
+        bottom: -125px;
+        left: 390px;
+    }
+    .angels__thinking-woman {
+        width: 235px;
+        bottom: 50px;
+        right: 13px;
+    }
+    .angels__star-behind-woman {
+        width: 150px;
+        top: -120px;
+        right: 185px;
+    }
+    .angels__year {
+        top: 150px;
+        left: -75px;
+    }
+    .angels__bottom-text {
+        position: relative;
+        top: -88px;
+    }
+    .angels__subtitle {
+        width: 235px;
+    }
+    .left,
+    .right {
+        position: static;
+    }
+    .hero__exhibitions {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 185px;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+}
+@media (min-width: 1200px) {
+    .angels__border-for-picture {
+        width: 383px;
+    }
+    .angels__video-in-circle {
+        width: 383px;
+        bottom: -205px;
+    }
+    .angels__video-circle-text {
+        bottom: -184px;
+    }
+    .hero__title-wrapper .hero__text {
+        width: 275px;
+    }
+    .angels__thinking-woman {
+        width: 300px;
+        bottom: 40px;
+        right: 20px;
+
+    }
+    .angels__star-behind-woman {
+        top: -100px;
+        left: -150px;
+    }
+    .angels__year {
+        top: 240px;
+        font-size: 80px;
+        left: -120px;
+    }
+    .angels__bottom-text {
+        top: -70px;
+        right: 40px;
+        
+    }
+    .hero__text {
+        width: 300px;
+    }
+    .hero__exhibitions {
+        margin-top: 250px;
     }
 }

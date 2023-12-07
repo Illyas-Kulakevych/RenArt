@@ -1,0 +1,136 @@
+@media (min-width: 768px) {
+
+    .beauty__title {
+        font-size: 76px;
+    }
+
+    .unlock-renaissance {
+
+        padding: 0px 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+
+
+    .image-queen {
+        width: 100%;
+        max-width: 439px;
+        min-width: 292px;
+        min-height: 311px;
+        max-height: 488px;
+
+    }
+
+    .play-button {
+        min-width: 57px;
+        min-height: 57px;
+        max-width: 69px;
+        max-height: 69px;
+    }
+
+    .free-area-container {
+        margin: auto;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 4%;
+        grid-template-rows: 1fr 33% 35%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .star-logo {
+        display: none;
+    }
+
+    .beauty-renaissance {
+        display: inline-table;
+        font-size: 92px;
+        font-family: "Bacasime Antique", serif;
+        color: var(--title__color__higlight);
+        font-weight: 400;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .beauty__title {
+        display: none;
+    }
+
+    .renaissance__title {
+        display: none;
+    }
+
+    .renaissance-word {
+        color: var(--title__color);
+        font-style: italic;
+        position: absolute;
+        bottom: -69px;
+        z-index: 0;
+        right: 345px;
+    }
+
+    .queen-button-guide {
+
+        z-index: 0;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
+    .line-with-star {
+        position: relative;
+        width: 100%;
+        max-width: 50px;
+        max-height: 421px;
+        z-index: 0;
+        display: block;
+        grid-column-start: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        top: -107px;
+    }
+
+    .period-of-great-cultural {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        display: grid;
+        align-self: center;
+    }
+
+    .period-of-renissance {
+        font-weight: bold;
+        font-size: 17px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        text-align: left;
+        justify-self: center;
+        
+    }
+
+    .we-strive {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        font-size: 17px;
+        text-align: left;
+        justify-self: center;
+    }
+    .button-guide {
+        bottom: 50px;
+    }
+}
+
+@media(max-width: 936px) and (min-width: 768px) {
+    .beauty-renaissance {
+        display: inline-table;
+        font-size: 74px;
+        font-family: "Bacasime Antique", serif;
+        color: var(--title__color__higlight);
+        font-weight: 400;
+        z-index: 1;
+        position: absolute;
+    }
+}

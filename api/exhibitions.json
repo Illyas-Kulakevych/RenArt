@@ -1,0 +1,50 @@
+[
+    {
+      "image": "cat_with_kittens.png",
+      "availability": "On display",
+      "dateStart": "May 19, 2023",
+      "dateEnd": "Aug 28, 2024",
+      "artist": "Henriette Ronner-Knip",
+      "title": "Cat with Kittens"
+    },
+    {
+      "image": "lithuanian_girl.png",
+      "availability": "On display",
+      "dateStart": "Aug 01, 2023",
+      "dateEnd": "Sep 12, 2024",
+      "artist": "Kanuty Rusiecki",
+      "title": "Lithuanian Girl"
+    },
+    {
+      "image": "maria_with_the_child.png",
+      "availability": "Soon",
+      "dateStart": "Sep 22, 2024",
+      "dateEnd": "Jun 13, 2025",
+      "artist": "Marcello Fogolino",
+      "title": "Maria with The Child"
+    },
+    {
+      "image": "flora.png",
+      "availability": "Soon",
+      "dateStart": "Oct 01, 2023",
+      "dateEnd": "Jun 12, 2024",
+      "artist": "Philip H, Calderon",
+      "title": "Flora MacDonald's farewell"
+    },
+    {
+      "image": "nature_morte.png",
+      "availability": "Soon",
+      "dateStart": "May 02, 2024",
+      "dateEnd": "Jun 08, 2024",
+      "artist": "Georges D. de Monfreid",
+      "title": "Nature morte aux giroflées"
+    },
+    {
+      "image": "joyous_summer.png",
+      "availability": "Soon",
+      "dateStart": "Oct 01, 2023",
+      "dateEnd": "Jun 12, 2024",
+      "artist": "Philip H. Calderon",
+      "title": "Joyous Summer"
+    }
+  ]

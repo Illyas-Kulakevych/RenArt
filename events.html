@@ -8,10 +8,18 @@
 
 </head>
 <body>
-    <header class="header">
-        <nav class="header__nav" data-include="header-nav.partial.html"></nav>
+    <header class="header header_events_color exhibitions-header_events_color">
+        <nav  class="header__nav" data-include="header-nav.partial.html"></nav>
     </header>
     <main class="main__events">
+        <div class="exhibitions-hero">
+            <h2>Exhibitions</h2>
+            <div class="exhibitions-hero__image-container">
+                <img class="exhibitions__img__star" src="./img/about-images/about.octagram-horizontal-lines.svg"
+                alt="Octagram in the middle with horizontal lines">
+            </div>
+            <p class="location__current-position"> HOME > <u>EXHIBITIONS</u></p>
+        </div>
         <section data-include="exhibitions.partial.html"></section>
         <section data-include="events.partial.html"></section>
         <div class="wrapper">
@@ -20,5 +28,8 @@
     </main>
     <footer data-include="footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/exhibitions.js"></script>
+    
 </body>
 </html>

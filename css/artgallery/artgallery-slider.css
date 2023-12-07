@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.artgallery-slider{
+    max-width: 1200px;
+    margin: auto; 
+}
+.slider-container{
+    position: relative;
+    max-width: 1200px;
+    max-height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+.slider__line{
+    margin-top: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    transition: all 1s;
+}
+.slider-container .slider__wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.slider-container .slider__wrapper li{
+    list-style: none;
+    cursor: pointer;
+}
+.slider-container .slider__wrapper li img{
+    padding: 30px 15px;
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+.slider-container .slider__wrapper li img:hover{
+    filter:drop-shadow(0 0 0.50rem rgb(230, 141, 7));
+}
+.btn-prev{
+    position: absolute;
+    max-width: 30px;
+    max-height: 30px;
+    rotate: -135deg;
+    top: 35%;
+    left: 2%;
+}
+.btn-next{
+    position: absolute;
+    max-width: 30px;
+    max-height: 30px;
+    rotate: 44deg;
+    top: 35%;
+    right: 2%;
+}
+.btn-prev:hover{
+    filter: drop-shadow(0 0 0.50rem rgb(230, 141, 7));
+    cursor: pointer;
+}
+.btn-next:hover{
+    filter: drop-shadow(0 0 0.50rem rgb(230, 141, 7));
+    cursor: pointer;
+}
+.active-dot {
+    filter:drop-shadow(0 0 0.50rem rgb(230, 141, 7));
+}
+.artgallery-slider-title{
+    font-size: 62px;
+    font-family: "Bacasime Antique", serif;
+    color: var(--title__color__higlight);
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.slider-lower__text{
+    color: var(--title__color);
+    font-style: italic;
+}
+.artgallery-slider-text{
+    font-family: "Work Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--descriptive__color__most-hilight);
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 50px;
+}
+.artgallery-slider__description{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid rgb(55 49 49);
+    margin-top: 30px;
+}
+.stick-star{
+    max-width: 257px;
+    max-height: 32px;
+}
+.text__1995{
+    text-align: center;
+}
+.container__1995{
+    text-align: center;
+}
+.container__2001{
+    text-align: center;
+}
+.container__2010{
+    text-align: center;
+}
+.container__2017{
+    text-align: center;
+}
+.historical__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    
+}
+.historical__years{
+    font-size: 42px;
+    color: var(--color-plus-white);
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.historical__discription{
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-style: italic;
+    color: var(--descriptive__color);
+    margin-top: 15px;
+}
+.artgallery-slider{
+    padding: 0px 20px;
+}

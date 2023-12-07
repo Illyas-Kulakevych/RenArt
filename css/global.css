@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Work+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Work+Sans:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Work+Sans&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +17,7 @@
     --background__color__exhibition-events: #1D251E;
     --background__color__artgallery: #231107;
     --background__color__location: #251a0d;
+    --background__color__about-renart-gallery: #1F0F06;
     --background__color__footer: #1e140a;
     --title__color__higlight: #eab156;
     --title__color: #9f7647;
@@ -37,6 +38,9 @@
     --color-plus-white: white;
     --color-border-brown: #4d3a1c;
     --color-border-active-light: rgb(226, 151, 30);
+    --events-bg-color: #1d251e;
+    --about-bg-color: #231007;
+    --location-bg-color: #1e1409;
     scroll-behavior: smooth;
     
     /* Font size for contentigt */
@@ -75,7 +79,16 @@
 
 .header {
     background-color: var(--background__color__home);
+}
+.header_events_color {
 
+background-color: var(--events-bg-color);
+}
+.header_about_color {
+    background-color: var(--about-bg-color);
+}
+.header_location_color {
+    background-color: var(--location-bg-color);
 }
 
 .main__index {

@@ -1,58 +1,69 @@
 <div class="location">
     <section class="location__head">
-        <h2 class="location__main__title">Location</h2>
-        <div class="location__image-container">
-            <img class="location__img__star" src="./img/about-images/about.octagram-horizontal-lines.svg"
-            alt="Octagram in the middle with horizontal lines">
+        <div class="location__head__field">
+            <h2 class="location__main__title">Location</h2>
+            <div class="location__image-container">
+                <img class="location__img__star" src="./img/about-images/about.octagram-horizontal-lines.svg"
+                alt="Octagram in the middle with horizontal lines">
+            </div>
+            <p class="location__current-position"> HOME > <u>LOCATION</u></p>
         </div>
-        <p class="location__current-position"> HOME > <u>LOCATION</u></p>
     </section> 
     <section class="location__body">
         <section class="location__header">
-            <img class="location__img__gallery" width="1000" src="img/picture-gallery.webp" alt="Picture gallery">
-            <section class="location_contacts">
-                <h3 class="location__titles"><em>Adress</em></h3>
-                <p class="location__subtitles">Level 17, Dashwood House <br />
-                    London EC2M 1QS</p> 
-                <h3 class="location__titles"><em>Contacts</em></h3>
-                <div class="location__links">
-                    <a class="location__links-item" href="tel:+12345678900">+1 (234) 567 89 00</a>
+            <div class="location__header-field">
+                <div class="location__gallery">
+                    <img class="location__img__gallery" width="1000" src="img/picture-gallery.webp" alt="Picture gallery">
                 </div>
-                <div class="location__links">
-                    <a class="location__links-item" href="mailto:renart@email.com">renart@email.com</a>
+                <div class="location_contacts">
+                    <h3 class="location__titles"><em>Address</em></h3>
+                    <p class="location__subtitles">Level 17, Dashwood House <br />
+                        London EC2M 1QS</p> 
+                    <h3 class="location__titles"><em>Contacts</em></h3>
+                    <div class="location__links__field">
+                        <div class="location__links">
+                            <a class="location__links-item" href="tel:+12345678900">+1 (234) 567 89 00</a>
+                        </div>
+                        <div class="location__links">
+                            <a class="location__links-item" href="mailto:renart@email.com">renart@email.com</a>
+                        </div>
+                    </div>
+                    <h3 class="location__titles"><em>Opening Hours</em></h3>
+                    <p class="location__subtitles"><strong>Monday – Thursday:</strong> <br />
+                        11 am - 18 pm <br />
+                        <strong>Friday:</strong> <br />
+                        11 am - 16 pm <br />
+                        <strong>Saturday:</strong> <br />
+                        11 am - 16 pm</p>
                 </div>
-                <h3 class="location__titles"><em>Opening Hours</em></h3>
-                <p class="location__subtitles"><strong>Monday – Thursday:</strong> <br />
-                    11 am - 18 pm <br />
-                    <strong>Friday:</strong> <br />
-                    11 am - 16 pm <br />
-                    <strong>Saturday:</strong> <br />
-                    11 am - 16 pm</p>
-            </section>
+            </div>
         </section>
         <section class="location__main">
             <iframe class="location__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.4053139522978!2d-0.0836956236634512!3d51.51669016516368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cad65435ffb%3A0x2e9ddc5db053a444!2sServcorp%20-%20Dashwood%20House!5e0!3m2!1sru!2sus!4v1699388701783!5m2!1sru!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="location__booking__field">
                 <div class="booking__field__title">
-                    <h3><em>Tickets</em></h3>
+                    <h3 class="location__titles"><em>Tickets</em></h3>
                 </div>
-                <form action="#">
-                    <div class="booking__field">
-                        <input type="text" name="name" placeholder="Your Name*" required>
-                    </div>
-                    <div class="booking__field">
-                        <input type="text" name="phone" placeholder="Your Phone*" required>
-                    </div>
-                    <div class="booking__field">
-                        <input type="text" name="email" placeholder="Email*" required>
-                    </div>
-                    <div class="booking__field__data">
-                        <input type="date" name="Date" placeholder="Choose data" id="davaToday">
-                    </div>
-                    <div class="booking__button">
-                        <button type="submit">Request</button>
-                    </div>
-                </form>
+                <div class="booking__field-section">
+                    <form action="https://formspree.io/f/xzbllwnl" method="post">
+                        <div class="booking__field">
+                            <input type="text" name="name" placeholder="Your Name*" required>
+                        </div>
+                        <div class="booking__field">
+                            <input type="text" name="phone" placeholder="Your Phone*" required>
+                        </div>
+                        <div class="booking__field">
+                            <input type="text" name="email" placeholder="Email*" required>
+                        </div>
+                        <div class="booking__field__data"> 
+                            <input class="booking_data" type="date" name="date" placeholder="Choose data" onchange="this.className=(this.value!=''?'has-value':'')" required>
+                            <!-- <img class="location_data-img" src="./img/date.svg" alt="data img"> -->
+                        </div>
+                        <div class="location__button">
+                            <button class="booking__button" type="submit">Request</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </section>
     </section>   
