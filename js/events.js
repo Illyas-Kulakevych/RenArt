@@ -1,14 +1,5 @@
-document.addEventListener("partialsLoaded", () => {
-  import("./header.js");
-});
-
-document.addEventListener('DOMContentLoaded', async function () {
-
-
-  setTimeout(async function(){
-    const response = await fetch('api/events.json');
-    const events = await response.json();
 document.addEventListener("partialsLoaded", async () => {
+  import("./header.js");
 
   const response = await fetch('api/events.json');
   const events = await response.json();
@@ -44,15 +35,6 @@ document.addEventListener("partialsLoaded", async () => {
 
   };
   displayEvents(events);
-
-  function scrollToElement(elementId) {
-    const element = document.getElementById(elementId);
-
-    if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-    }
-  }
-  scrollToElement('eventsPart');
  
 });
 
