@@ -39,9 +39,9 @@
     --color-border-brown: #4d3a1c;
     --color-border-active-light: rgb(226, 151, 30);
     --events-bg-color: #1d251e;
-    --about-bg-color: #231007;
+    --about-bg-color: #1f0e06;
     --location-bg-color: #1e1409;
-    scroll-behavior: smooth;
+
     
     /* Font size for contentigt */
     --button-size: 14px;
@@ -81,8 +81,7 @@
     background-color: var(--background__color__home);
 }
 .header_events_color {
-
-background-color: var(--events-bg-color);
+    background-color: var(--events-bg-color);
 }
 .header_about_color {
     background-color: var(--about-bg-color);
