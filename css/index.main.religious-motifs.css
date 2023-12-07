@@ -231,7 +231,8 @@
     }
 
     .religious__image-first {
-        max-width: 300px;
+        max-width: 260px;
+        margin-left: -15px;
     }
 
     .religious__title {
